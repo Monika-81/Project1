@@ -6,6 +6,28 @@
 }
 
 /* header style */
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header {
+    display: inline-block;
+    width: 50%;
+}
+
+#nav-menu {
+    float: right;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 6vh;
+    line-height: 40px;
+}
 
 /* main style */
 
@@ -13,21 +35,31 @@
     display: inline-block;
     width: 50%;
     height: 100vh;
-  }
+}
   
   #left-block {
     float: left;
     background-color: gray;
-  }
+}
   
   #right-block {
     background-color: aquamarine;
     float: right;
-  }
+}
 
 /* image block */
 
+#image-text {
+    top: 300px;
+    position: relative;
+}
+
 /* text block */
+
+#home-text {
+    top: 300px;
+    position: relative;
+}
 
 /* info page 2 */
 
@@ -38,3 +70,26 @@
 /* contact information */
 
 /* footer style */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.footer {
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+}
+  
+#contact-links {
+    float: right;
+    text-align: center;
+}
+
+#links > li {
+    display: inline;
+    padding: 6vh;
+}
