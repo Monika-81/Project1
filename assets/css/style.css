@@ -1,3 +1,40 @@
-html {
-    background-color: bisque;
+/* html style*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+/* header style */
+
+/* main style */
+
+.main-block {
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+  }
+  
+  #left-block {
+    float: left;
+    background-color: gray;
+  }
+  
+  #right-block {
+    background-color: aquamarine;
+    float: right;
+  }
+
+/* image block */
+
+/* text block */
+
+/* info page 2 */
+
+/* fun facts page 2 */
+
+/* form page 3 */
+
+/* contact information */
+
+/* footer style */
