@@ -30,34 +30,33 @@ header {
 }
 
 /* main style */
-
 .main-block {
     display: inline-block;
     width: 50%;
     height: 100vh;
 }
   
-  #left-block {
+#left-block {
     float: left;
     background-color: gray;
 }
   
-  #right-block {
+#right-block {
     background-color: aquamarine;
     float: right;
 }
 
 /* image block */
-
 #image-text {
     top: 300px;
     position: relative;
 }
 
 /* text block */
-
-#home-text {
-    top: 300px;
+#home-text, #info-text, #form-text {
+    top: 200px;
+    width: 85%;
+    margin: 0 auto;
     position: relative;
 }
 
