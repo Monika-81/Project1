@@ -22,7 +22,7 @@ BeerLisious is site for a fictive beer club located in Helsingborg, Sweden that 
 
 ### Content
 <li> Fun fact quote underneet the activities list on page two was taken from an article about International Beer Day 2021 in <a href="https://www.indiatimes.com/trending/social-relevance/international-beer-day-facts-about-beer-546635.html">Indiatimes.com</a>
-<li> The beer mug icon on the same page are from <a hraf="https://fontawesome.com">Font Awesome 5</a>.
+<li> The beer mug icon on the same page are from <a href="https://fontawesome.com/">Font Awesome</a>.
 
 ### Media
-<li> The hero image comes from ELEVATE at <a href="https://www.pexels.com/sv-se/foto/restaurang-man-hander-manniskor-1267360/">Pexels.com</a>.
+<li> The hero images comes from the artist ELEVATE at <a href="https://www.pexels.com/sv-se/@elevate">Pexels.com</a>.
