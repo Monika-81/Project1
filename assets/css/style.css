@@ -201,9 +201,14 @@ header {
     background-color: #faebd7;
   }
   
-  #submit:hover {
+#submit:hover {
     background-color: #f5700db5;
-  }
+}
+
+#email-adress {
+    font-size: 20px;
+    margin-top: 50px;
+}
 
 /* footer style */
 footer {
@@ -247,7 +252,7 @@ footer {
     p {
       font-size: 22px;
     }
-    #anecdote, #fun-facts {
+    #anecdote, #fun-facts, #email-adress {
       font-size: 17px;
     }
 }
