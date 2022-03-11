@@ -89,11 +89,13 @@ header {
 }
 
 #image-text {
-    width: 400px;
-    height: 300px;
-    bottom: 500px;
-    margin-left: 40px;
+    width: 530px;
+    height: 270px;
+    bottom: 450px;
+    padding: 20px;
+    margin-left: 35px;
     color: #faebd7;
+    background-color: rgba(0, 0, 0, 0.4);
     position: relative;
 }
 
@@ -294,6 +296,8 @@ footer {
   
     #image-text {
       bottom: 30%;
+      width: 420px;
+      height: 230px;
     }
   
     #sign-up {
