@@ -189,10 +189,6 @@ header {
     padding-left: 12px;
 }
 
-input[type="radio"]:checked:after {
-	background-color: #f5700db5;
-}
-
 #submit {
     margin: 45px 20px 20px 120px;
     height: 30px;
