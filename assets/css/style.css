@@ -143,6 +143,10 @@ header {
 .fa-solid:hover {
     color: #f5700db5;;
 }
+
+#fun-facts {
+    font-size: 20px;
+}
   
 #info-text a {
     text-decoration: none;
@@ -151,10 +155,6 @@ header {
   
 #info-text a:hover {
     color: #f5700db5;;
-}
-
-.fun-facts {
-    font-size: 20px;
 }
 
 /* form page 3 */
@@ -358,7 +358,7 @@ footer {
   
     p {
       font-size: 15px;
-      letter-spacing: none;
+      letter-spacing: 0px;
       padding-top: 10px;
     }
   
@@ -411,7 +411,7 @@ footer {
     }
   
     #anecdote,
-    .fun-facts {
+    #fun-facts {
       font-size: 9px;
     }
   
