@@ -109,11 +109,24 @@ header {
     position: inherit;
 }
 
-.no-dot {
+#info-list li {
     left: -23px;
-    padding: 20px 0;
     list-style-type: none;
-    position: relative;
+    position: relative; 
+}
+
+.info-pointer {    
+    padding: 20px 0; 
+}
+
+.fa-solid {
+    padding-right: 5px;
+    font-size: smaller;
+}
+
+.fa-solid:hover {
+    color: red;
+    font-size: medium;
 }
   
 #info-text a {
