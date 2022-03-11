@@ -411,7 +411,7 @@ footer {
     }
   
     #anecdote,
-    #fun-facts {
+    .fun-facts {
       font-size: 9px;
     }
   
