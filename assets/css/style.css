@@ -21,10 +21,10 @@ p {
 
 /* header style */
 header {
-    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
+    position: fixed;
 }
 
 .header {
@@ -34,7 +34,18 @@ header {
 
 #nav-menu {
     float: right;
+    margin-top: 10px;
     text-align: center;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+  
+#nav-menu a:hover {
+    color: red;
 }
 
 #menu li {
@@ -67,7 +78,6 @@ header {
     height: 300px;
     margin-left: 50px;
     position: relative;
-    
 }
 
 /* text block */
@@ -89,10 +99,11 @@ header {
 /* footer style */
 
 footer {
-    position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
+    padding-bottom: 10px;
+    position: fixed;
 }
 
 .footer {
@@ -104,6 +115,16 @@ footer {
 #contact-links {
     float: right;
     text-align: center;
+}
+
+#contact-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+  
+#contact-links a:hover {
+    color: red;
 }
 
 #links > li {
