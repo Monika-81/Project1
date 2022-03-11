@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Londrina+Shadow&display=swap');
 /* over all page style*/
 * {
     padding: 0;
@@ -5,8 +6,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
 h1 {
-    font-size: 100px;
+    font-family: 'Londrina Shadow', cursive, sans-serif;
+    font-size: 105px;
 }
 
 h2 {
@@ -63,11 +71,12 @@ header {
   
 #left-block {
     float: left;
-    background-color: gray;
+    color: #faebd7;
+    background-color: #f5700db5;
 }
   
 #right-block {
-    background-color: aquamarine;
+    background-color: #faebd7;
     float: right;
 }
 
