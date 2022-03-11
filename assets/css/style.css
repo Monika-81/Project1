@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 p {
@@ -100,14 +100,36 @@ header {
 #anecdote {
     font-size: 20px;
 }
-
 /* info page 2 */
 
-/* fun facts page 2 */
+#info-list {
+    left: 25px;
+    width: 85%;
+    font-size: 25px;
+    position: inherit;
+}
+
+.no-dot {
+    left: -23px;
+    padding: 20px 0;
+    list-style-type: none;
+    position: relative;
+}
+  
+#info-text a {
+    text-decoration: none;
+    color: black;
+}
+  
+#info-text a:hover {
+    color: red;
+}
+
+.fun-facts {
+    font-size: 20px;
+}
 
 /* form page 3 */
-
-/* contact information */
 
 /* footer style */
 
