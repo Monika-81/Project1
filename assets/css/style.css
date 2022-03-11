@@ -97,6 +97,10 @@ header {
     position: relative;
 }
 
+#anecdote {
+    font-size: 20px;
+}
+
 /* info page 2 */
 
 /* fun facts page 2 */
