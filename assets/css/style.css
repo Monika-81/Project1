@@ -19,6 +19,7 @@ h1 {
 
 h2 {
     font-size: 40px;
+    margin-bottom: 100px;
 }
 
 p {
@@ -82,16 +83,16 @@ header {
 
 /* image block */
 #image-text {
-    top: 800px;
     width: 400px;
     height: 300px;
+    bottom: 500px;
     margin-left: 50px;
     position: relative;
 }
 
 /* text block */
 #home-text, #info-text, #form-text {
-    top: 200px;
+    top: 180px;
     width: 85%;
     margin: 0 auto;
     position: relative;
@@ -100,8 +101,8 @@ header {
 #anecdote {
     font-size: 20px;
 }
-/* info page 2 */
 
+/* info page 2 */
 #info-list {
     left: 25px;
     width: 85%;
@@ -142,11 +143,9 @@ header {
 }
 
 /* form page 3 */
-
 #sign-up {
     height: 400px;
     width: 400px;
-    margin: 0 auto;
     line-height: 30px;
     text-align: left;
     position: relative;
@@ -167,6 +166,13 @@ header {
     padding-bottom: 20px;
 }
 
+#sign-up > h4 {
+    text-align: center;
+}
+
+.gift {
+    margin: 10px;
+}
 #padding-top-bottom {
     padding: 20px 0;
 }
@@ -190,7 +196,6 @@ header {
   }
 
 /* footer style */
-
 footer {
     bottom: 0;
     right: 0;
