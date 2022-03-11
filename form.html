@@ -39,10 +39,31 @@
        <section class="main-block" id="right-block">
         <div id="form-text">
             <h1>Wanna join?</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-               when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <p>To join our club you simply submit your contact information at the form below. Note that there is a
+                small registration fee of 200:- sek that will be sent to you after the sign up, but in return you
+                get to choose between a cool black club t-shirt or cap with our logo on! So we all can look cool
+                tasting beer together!
             </p>
+            <form id="sign-up">
+                <h4 id="sign-up-header">Sign up here:</h4>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" class="sign-up-input" name="first-name" required>
+                <label for="lame">Last Name</label>
+                <input type="text" id="lname" class="sign-up-input" name="last-name" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="sign-up-input" name="email-adress" required>
+                <h4 id="padding-top-bottom">Please choose the size for your Club T-shirt or if you like a Club cap
+                    instead</h4>
+                <label for="small" id="small-label">Small</label>
+                <input type="radio" id="small" class="gift" name="gift" value="small" required>
+                <label for="small">Medium</label>
+                <input type="radio" id="medium" class="gift" name="gift" value="medium">
+                <label for="small">Large</label>
+                <input type="radio" id="large" class="gift" name="gift" value="large">
+                <label for="small">Cap</label>
+                <input type="radio" id="cap" class="gift" name="gift" value="cap">
+                <input type="submit" id="submit" value="Cheers!">
+            </form>
         </div>
        </section> 
     </main>
