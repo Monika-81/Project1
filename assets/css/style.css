@@ -38,6 +38,7 @@ header {
 .header {
     display: inline-block;
     width: 50%;
+    font-weight: 800;
 }
 
 #nav-menu {
@@ -60,7 +61,10 @@ header {
     display: inline;
     padding: 6vh;
     line-height: 40px;
-    font-weight: 800;
+    }
+
+.active {
+    border-bottom: 1px solid black;
 }
 
 /* main style */
@@ -224,6 +228,7 @@ footer {
     display: inline-block;
     width: 50%;
     height: 40px;
+    font-weight: 800;
 }
   
 #contact-links {
@@ -244,8 +249,7 @@ footer {
 #links > li {
     display: inline;
     padding: 6vh;
-    font-size: 800;
-}
+    }
 
 /* media queries*/
 
@@ -280,7 +284,6 @@ footer {
     }
   
     #menu li {
-      font-weight: 800;
       padding: 2.5vh;
     }
   
@@ -329,7 +332,6 @@ footer {
     }
   
     #links > li {
-      font-weight: 800;
       padding: 2.5vh;
     }
   }
