@@ -60,6 +60,7 @@ header {
     display: inline;
     padding: 6vh;
     line-height: 40px;
+    font-weight: 800;
 }
 
 /* main style */
@@ -243,6 +244,7 @@ footer {
 #links > li {
     display: inline;
     padding: 6vh;
+    font-size: 800;
 }
 
 /* media queries*/
