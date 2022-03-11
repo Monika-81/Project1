@@ -1,8 +1,22 @@
-/* html style*/
+/* over all page style*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 50px;
 }
 
 /* header style */
@@ -48,8 +62,12 @@ header {
 
 /* image block */
 #image-text {
-    top: 300px;
+    top: 800px;
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
     position: relative;
+    
 }
 
 /* text block */
