@@ -224,3 +224,15 @@ footer {
     display: inline;
     padding: 6vh;
 }
+
+/* media queries*/
+
+/* screens size 1600px or below */
+@media screen and (max-width: 1600px) {
+    p {
+      font-size: 22px;
+    }
+    #anecdote, #fun-facts {
+      font-size: 17px;
+    }
+  }
