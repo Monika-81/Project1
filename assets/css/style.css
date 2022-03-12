@@ -83,9 +83,13 @@ header {
   
 #right-bottom-content{
   float: right;
-  overflow: auto;
+  overflow-x: auto;
   padding: 65px 0;
   background-color: #faebd7; 
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /* image block */
@@ -301,7 +305,7 @@ footer {
     #right-bottom-content {
       width: 100%;
       padding: 0;
-      overflow: unset;
+      overflow-x: unset;
       float: left;
       clear: both;
     }
@@ -382,7 +386,7 @@ footer {
       max-height: 70vh;
       float: left;
       clear: both;
-      overflow: auto;
+      overflow-x: auto;
     }
   
     #hero-image {
