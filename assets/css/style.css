@@ -186,7 +186,7 @@ header {
     padding: 20px 0;
 }
 
-.gift {
+.item {
     margin: 10px;
 }
   
@@ -411,7 +411,7 @@ footer {
   
     #anecdote,
     #fun-facts {
-      font-size: 9px;
+      font-size: 12px;
     }
   
     #info-list {
@@ -427,7 +427,7 @@ footer {
     }
   
     #sign-up-header {
-      font-size: 15px;
+      font-size: 1;
       padding: 20px 0;
     }
   
@@ -445,12 +445,12 @@ footer {
       padding-left: 0;
     }
   
-    .gift {
+    .item {
       margin: 0;
     }
   
     #submit {
-      margin: 40px 20px 20px 20vw;
+      margin: 10% 20px 20px 20vw;
     }
   
     #internal-navigation a,
