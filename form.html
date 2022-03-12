@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="BeerLicious | A fictive beer club for beer lovers in Helsingborg, Sweden">
+    <meta name="description" content="BeerLicious | A fictive club for beer lovers in Helsingborg, Sweden">
     <meta name="keywords" content="beer club, beer, social club, social activities, helsingborg">
     <meta name="author" content="Monika Jakobsson, CI student">
 
@@ -16,7 +16,7 @@
     <!-- fixed header with site nav menu to the right-->
     <header>
         <div class="header" id="header-spacer"></div>
-        <div class="header" id="nav-menu">
+        <div class="header" id="internal-navigation">
             <nav>
                 <ul id="menu">
                     <li><a href="index.html">about</a></li>
@@ -26,37 +26,37 @@
             </nav>
         </div>
     </header>
-    <!--main block, two blocks. one img and one text with form to sign up-->
+    <!--main page content, two sections. one hero img and one for sign up form-->
     <main>
-       <section class="main-block" id="left-block">
+       <section class="main-content" id="left-top-content">
            <!--image applied in stylesheet-->
-           <div id="home-image"></div> 
+           <div id="hero-image"></div> 
            <div id="image-text">
             <h1>BeerLicious</h1>
             <h2>A Beer Club in Helsingborg</h2>
            </div>
        </section>
-       <section class="main-block" id="right-block">
+       <section class="main-content" id="right-bottom-content">
         <div id="form-text">
             <h1>Wanna join?</h1>
             <p>To join our club you simply submit your contact information at the form below. Note that there is a
-                small registration fee of 200:- sek that will be sent to you after the sign up*, but in return you
+                small registration fee of 200:- sek that will be sent to you after sign up*, but in return you
                 get to choose between a cool black club t-shirt or cap with our logo on! So we all can look cool
                 tasting beer together!
             </p>
-            <p> Feel free to email us if you have any questions! Click the link below or 
-                copy this email address to preferred email client: <strong>info@beerlicious.se</strong>
+            <p> Feel free to email us if you have any questions! Click the link below to open mail client directly or 
+                copy this email address for later us: <strong>info@beerlicious.se</strong>
             </p>
             <form id="sign-up">
-                <h4 id="sign-up-header">Sign up here:</h4>
+                <h3 id="sign-up-header">Sign up here:</h3>
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" class="sign-up-input" name="first-name" required>
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" class="sign-up-input" name="last-name" required>
                 <label for="email">Email Address</label>
                 <input type="email" id="email" class="sign-up-input" name="email-adress" required>
-                <h4 id="padding-top-bottom">Please choose the size for your Club T-shirt or if you like a Club cap
-                    instead</h4>
+                <h3 id="padding-top-bottom">Please choose the size for your Club T-shirt or if you like a Club cap
+                    instead</h3>
                 <label for="small" id="small-label">Small</label>
                 <input type="radio" id="small" class="gift" name="gift" value="small" required>
                 <label for="small">Medium</label>
@@ -70,18 +70,20 @@
         </div>
        </section> 
     </main>
-    <!-- fixed footer with social media and contact links to the right--> 
+    <!-- fixed footer with social media and external nav to the right--> 
     <footer>
         <div class="footer" id="footer-spacer"></div>
-        <div class="footer" id="contact-links">
-            <ul id="links">
-                <li><a href="https://facebook.com" target="_blank" rel="external noopener"
-                        aria-label="Go to our page on Facebook (opens in new tab)">facebook</a></li>
-                <li><a href="https://instagram.com" target="_blank" rel="external noopener"
-                        aria-label="Go to our page on Instagram (opens in new tab)">instagram</a></li>
-                <li><a href="mailto:sven_svensson@beerlicious.se" target="_blank" rel="noopener noreferrer"
-                        aria-label="Send us an email (opens in separate mail application)">mail</a></li>
-            </ul>
+        <div class="footer" id="external-navigation">
+            <nav>
+                <ul id="links">
+                    <li><a href="https://facebook.com" target="_blank" rel="external noopener"
+                            aria-label="Go to our page on Facebook (opens in new tab)">facebook</a></li>
+                    <li><a href="https://instagram.com" target="_blank" rel="external noopener"
+                            aria-label="Go to our page on Instagram (opens in new tab)">instagram</a></li>
+                    <li><a href="mailto:sven_svensson@beerlicious.se" target="_blank" rel="noopener noreferrer"
+                            aria-label="Send us an email (opens in separate mail application)">mail</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
     </body>
