@@ -26,20 +26,20 @@ BeerLisious is the website for a fictive beer club located in the city of Helsin
 <br>
 At the top of the right side of the webpage there is an internal navigation bar that marks the current page. It will help the user choose between the about page (home page), activites page and the sign up page - also know as "join".
 <br>
-![Navigation](assets/images/readme/navbar.png)
+<br>![Navigation](assets/images/readme/navbar.png)
 <br>
 <br>
 <li> Hero Image <br>
 As part of the main design there is a "hero image" to the left of the page a desktop and tablets with a screen at 1200px or above. The same image will transform as a header image at viewports the scale of 1200px and below. The image main purpose is to  work as a mode setter and in itself subconsciously get the user to associate the site with beer. Visually it will work as a complement to the text section but if the image won't load there is a background image in a contrasting color that connects to the color scheme of the entire web page.
 <br>
-![Hero Image](assets/images/readme/screen-hero-image.png)     ![Alternative bg](assets/images/readme/screen-bg-image.png)
+<br>![Hero Image](assets/images/readme/screen-hero-image.png)     ![Alternative bg](assets/images/readme/screen-bg-image.png)
 <br>
 <br>
 <li> About page
 <br>
 The main page aka the about page gives the user a short introduction to the club, who they are, why it started and it also tries to give a general feeling about the lightnes and humor of the gathering group while being infrormative. The main design team of the page was to make it easy to read, sleek in the design and yet introduce the user to the club and it's purpose. 
 <br>
-![About Page](assets/images/readme/about-page.png)
+<br>![About Page](assets/images/readme/about-page.png)
 <br>
 <br>
 <li> Activities page
@@ -51,20 +51,23 @@ The main page aka the about page gives the user a short introduction to the club
 <li> W3C HTML and CSS Validation
 ![HTML]() ![CSS]()
 <li> Lighthouse in Chroome DevTools
-![Lighthouse Desktop](assets/images/readme/lighthouse-desktop-small.png)
-![Lighthouse Mobile](assets/images/readme/lighthouse-mobile-small.png)
-![Lighthouse Mobile improve](assets/images/readme/lighthouse-mobile-what-to-improve.png)
+<br>![Lighthouse Desktop](assets/images/readme/lighthouse-desktop-small.png)
+<br>![Lighthouse Mobile](assets/images/readme/lighthouse-mobile-small.png)
+<br>![Lighthouse Mobile improve](assets/images/readme/lighthouse-mobile-what-to-improve.png)
 
 ## Deployment
 
 ## Credits
 I consulted
-<li> the <a href="https://fontawesome.com/">Font Awesome</a> website about how to mark font icons for better accesibility.
-<li> <a href="https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll"> stackowerflow.com</a> for help to hide my scrollbar:
+<li> the <a href="https://fontawesome.com/">Font Awesome</a> website about how to mark font icons for better accessibility.
+<li> <a href="stackoverflow.com">stackoverflow.com</a> for help to hide the horizontal <a href="https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll">scrollbar</a>:
 <br> ::-webkit-scrollbar {
 <br> display: none;
 <br>}
-<br>The code was tested on my content before commited to style.css. 
+<li>as well as how to change input color for my <a hrwf="https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons">radion buttons</a> in the sign up form:
+<br>input[type='radio'] { accent-color: #000; }
+<li> To tackle the autofill input color in the form i consulted <a href="https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/">CSS-tricks.com</a>.
+<br>All three codes was tested through the live server in chrome before commited to style.css. 
 
 
 ### Content
