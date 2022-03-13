@@ -62,9 +62,9 @@ header {
 
 .menu li {
   display: inline;
-  padding: 6vh;
+  margin: 0 80px;
   line-height: 55px;
-    }
+}
 
 .active {
   border-bottom: 1px solid black;
@@ -84,7 +84,7 @@ header {
   
 .right-bottom-content{
   float: right;
-  margin: 65px 0;
+  padding: 65px 0;
   overflow-x: auto;
 }
 
@@ -194,7 +194,7 @@ h1 > a {
   text-align: center;
 }
 .margin-top-bottom {
-  padding: 20px 0;
+  margin: 20px 0;
 }
 
 .item {
@@ -205,17 +205,18 @@ h1 > a {
   padding-left: 12px;
 }
 
-#submit {
+.submit {
   margin: 45px 20px 20px 120px;
-  height: 30px;
+  height: 40px;
   width: 150px;
-  border: none;
-  font-size: 110%;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Fredoka', sans-serif;
   text-transform: uppercase;
   background-color: #faebd7;
 }
   
-#submit:hover {
+.submit:hover {
   background-color: #f5700db5;
 }
 
@@ -270,215 +271,225 @@ footer {
 
 .links > li {
   display: inline;
-  padding: 6vh;
+  margin: 0 80px;
 }
 
 /* media queries*/
 
 /* screens size 1600px or below */
 @media screen and (max-width: 1600px) {
-    p {
-      font-size: 22px;
-    }
-    .fun-facts {
-      font-size: 17px;
-    }
+  p {
+    font-size: 22px;
+  }
+
+  .menu li, .links li {
+    margin: 0 40px;
+  } 
+
+  .fun-facts {
+    font-size: 17px;
+  }
 }
 /* screens size 1200px or below */
 @media screen and (max-width: 1200px) {
-    h1 {
-      font-size: 80px;
-    }
+  h1 {
+    font-size: 80px;
+  }
   
-    .header-spacer {
-      width: 100%;
-      height: 30px;
-      z-index: -2;
-    }
+  .header-spacer {
+    width: 100%;
+    height: 30px;
+    z-index: -2;
+  }
   
-    .internal-navigation {
-      width: 100%;
-      top: -35px;
-      line-height: 55px;
-      background-color: #faebd7;
-      position: relative;
-    }
+  .internal-navigation {
+    width: 100%;
+    top: -35px;
+    line-height: 55px;
+    background-color: #faebd7;
+    position: relative;
+  }
   
-    .menu li {
-      padding: 2.5vh;
-    }
+  .main-content {
+    width: 100%;
+  }
   
-    .main-content {
-      width: 100%;
-    }
+  .left-top-content {
+    width: 100%;
+    float: left;
+    clear: both;
+  }
   
-    .left-top-content {
-      width: 100%;
-      float: left;
-      clear: both;
-    }
+  .right-bottom-content {
+    width: 100%;
+    padding: 0;
+    overflow-x: unset;
+    float: left;
+    clear: both;
+  }
   
-    .right-bottom-content {
-      width: 100%;
-      margin: 0;
-      overflow-x: unset;
-      float: left;
-      clear: both;
-    }
-  
-    .image-text {
-      bottom: 30%;
-    }
+  .image-text {
+    bottom: 30%;
+  }
 
-    .info-text {
-      top: 40px;
-    }
+  .info-text {
+    top: 40px;
+  }
 
-    .text-head {
-      margin-top: 0;
-    }
+  .text-head {
+    margin-top: 0;
+  }
     
-    footer {
-      padding-bottom: 0;
-    }
+  footer {
+    padding-bottom: 0;
+  }
   
-    .footer-spacer {
-      width: 100%;
-      z-index: -2;
-      position: absolute;
-    }
+  .footer-spacer {
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+  }
   
-    .external-navigation {
-      width: 100%;
-      line-height: 55px;
-      background-color: #faebd7;
-      position: relative;
-    }
-  
-    .links > li {
-      padding: 2.5vh;
-    }
+  .external-navigation {
+    width: 100%;
+    line-height: 55px;
+    background-color: #faebd7;
+    position: relative;
+  }
 }
 
   /* screens size 900px height or below */
 @media screen and (max-height: 900px){
-    .text-head {
-      margin-top: 0;
-    }
+  .text-head {
+    margin-top: 0;
+  }
 }
 
 /* screens size 600px width or below */
 @media screen and (max-width: 600px) {
-    h1 {
-      font-size: 40px;
-    }
+  h1 {
+    font-size: 40px;
+  }
   
-    h2 {
-      font-size: 20px;
-    }
+  h2 {
+    font-size: 20px;
+  }
   
-    p {
-      font-size: 20px;
-      letter-spacing: 0px;
-      margin-top: 10px;
-    }
+  p {
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+  }
+
+  .menu li, .links li {
+    margin: 0 10px;
+  }
+
+  .internal-navigation a, .external-navigation a {
+    font-size: 18px;
+  }
   
-    .main-content {
-      width: 100%;
-      height: unset;
-    }
+  .main-content {
+    width: 100%;
+    height: unset;
+  }
   
-    .left-top-content {
-      width: 100%;
-      height: 30vh;
-      float: left;
-      clear: both;
-      background-color: #faebd7;
-    }
+  .left-top-content {
+    width: 100%;
+    height: 30vh;
+    float: left;
+    clear: both;
+    background-color: #faebd7;
+  }
   
-    .right-bottom-content {
-      width: 100%;
-      max-height: 70vh;
-      float: left;
-      clear: both;
-      overflow-x: auto;
-    }
+  .right-bottom-content {
+    width: 100%;
+    max-height: 70vh;
+    float: left;
+    clear: both;
+    overflow-x: auto;
+  }
   
-    .hero-image {
-      background: url('../images/pexels-elevate-1267358.jpg') no-repeat;
-      background-position: bottom;
-      background-size: cover;
-      max-width: 100%;
-      max-height: 100%;
-    }
+  .hero-image {
+    background: url('../images/pexels-elevate-1267358.jpg') no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+  }
   
-    .image-text {
-      max-width: 100vw;
-      max-height: 432px;
-      margin: 0;
-      left: 0;
-      top: 60px;
-      padding: 10px;
-      background-color: transparent;
-      position: absolute;
-    }
+  .image-text {
+    max-width: 100vw;
+    max-height: 432px;
+    margin: 0;
+    left: 0;
+    top: 60px;
+    padding: 10px;
+    background-color: transparent;
+    position: absolute;
+  }
   
-    .info-text {
-      top: 15px;
-      margin-bottom: 80px;
-    }
+  .info-text {
+    top: 15px;
+    margin-bottom: 80px;
+  }
   
-    .fun-facts {
-      font-size: 12px;
-    }
+  .fun-facts {
+    font-size: 12px;
+  }
   
-    .info-list {
-      font-size: 15px;
-    }
+  .info-list {
+    font-size: 15px;
+  }
   
-    .sign-up {
-      width: 300px;
-      height: 50%;
-      margin: 0;
-      font-size: small;
-      line-height: 15px;
-    }
+  .sign-up {
+    width: 90%;
+    height: 50%;
+    margin: 0;
+    font-size: small;
+    line-height: 15px;
+  }
   
-    .sign-up-header {
-      margin: 20px 0;
-    }
+  .sign-up-header {
+    margin: 20px 0;
+  }
   
-    .sign-up > h2 {
-      text-align: left;
-    }
+  .sign-up > h2 {
+    /* text-align: left; */
+    font-size: 15px;
+  }
   
-    .margin-top-bottom {
-      font-weight: 100;
-      font-size: 10px;
-      margin: 10px 0;
-    }
+  .margin-top-bottom {
+    font-size: 13px;
+    margin: 10px 0;
+  }
   
-    .small-label {
-      padding-left: 0;
-    }
+  .small-label {
+    padding-left: 0;
+  }
   
-    .item {
-      margin: 0;
-    }
+  .item {
+    margin: 0;
+  }
   
-    #submit {
-      margin: 10% 20px 20px 20vw;
-    }
-  
-    .internal-navigation a,
-    .external-navigation a {
-      font-size: 12px;
-    }
+  .submit {
+    height: 30px;
+    width: 110px;
+    font-size: 20px;
+    margin: 10% 20px 20px 35%;
+  }
 }
 
 /* screens size 300px or below */
 @media screen and (max-width: 300px) {
+  .internal-navigation a, .external-navigation a  {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+
   .info-text {
-    width: 95%;
+    width: 93%;
   }
 }
+
+  
