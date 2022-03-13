@@ -11,7 +11,7 @@ body {
   font-family: 'Fredoka', sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
-  background-color: #faebd7; 
+  background-color: rgba(250, 235, 215, 1); 
 }
 
 h1 {
@@ -52,12 +52,12 @@ header {
 
 .internal-navigation a {
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 1);
   font-size: 20px;
 }
   
 .internal-navigation a:hover {
-  color: #f5700d;
+  color: rgba(245, 112, 13, 0.71);
 }
 
 .menu li {
@@ -67,7 +67,7 @@ header {
 }
 
 .active {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 /* main content style */
@@ -79,7 +79,7 @@ header {
   
 .left-top-content {
   float: left;
-  background-color: #f5700d;
+  background-color: rgba(245, 112, 13, 0.71);
 }
   
 .right-bottom-content{
@@ -107,7 +107,7 @@ header {
   bottom: 450px;
   padding: 20px;
   margin-left: 35px;
-  color: #faebd7;
+  color: rgba(250, 235, 215, 1);
   background-color: rgba(0, 0, 0, 0.4);
   position: relative;
 }
@@ -136,12 +136,12 @@ h1 > a {
 
 .info-text a {
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 1);
 }
   
 .info-text a:hover {
   font-weight: 800;
-  color: #f5700d;;
+  color: rgba(245, 112, 13, 0.71);
 }
 /* info page 2 */
 .info-list {
@@ -213,16 +213,16 @@ h1 > a {
   font-weight: 800;
   font-family: 'Fredoka', sans-serif;
   text-transform: uppercase;
-  background-color: #faebd7;
+  background-color: rgba(250, 235, 215, 1);
 }
   
 .submit:hover {
-  background-color: #f5700db5;
+  background-color: rgba(245, 112, 13, 0.71);
 }
 
 /* styles input elements in form*/
 input[type="radio"] {
-  accent-color: black;
+  accent-color: rgba(0, 0, 0, 1);
 }
 
 input:-webkit-autofill,
@@ -234,7 +234,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-box-shadow: 0 0 0px 1000px #faebd7 inset;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(250, 235, 215, 1) inset;
   transition: background-color 50000s ease-in-out 0s;
 }
 
@@ -266,7 +266,7 @@ footer {
 }
   
 .external-navigation a:hover {
-  color: #f5700db5;
+  color: rgba(245, 112, 13, 0.71);
 }
 
 .links > li {
@@ -306,7 +306,7 @@ footer {
     width: 100%;
     top: -35px;
     line-height: 55px;
-    background-color: #faebd7;
+    background-color: rgba(250, 235, 215, 1);
     position: relative;
   }
   
@@ -353,7 +353,7 @@ footer {
   .external-navigation {
     width: 100%;
     line-height: 55px;
-    background-color: #faebd7;
+    background-color: rgba(250, 235, 215, 1);
     position: relative;
   }
 }
@@ -399,7 +399,6 @@ footer {
     height: 30vh;
     float: left;
     clear: both;
-    background-color: #faebd7;
   }
   
   .right-bottom-content {
