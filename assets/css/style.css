@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Londrina+Shadow&display=swap');
-/* over all page style*/
+/* general page style*/
 * {
   padding: 0;
   margin: 0;
@@ -56,7 +56,7 @@ header {
 }
   
 #internal-navigation a:hover {
-  color: #f5700db5;;
+  color: #f5700db5;
 }
 
 #menu li {
@@ -69,7 +69,7 @@ header {
   border-bottom: 1px solid black;
 }
 
-/* main style */
+/* main content style */
 .main-content {
   display: inline-block;
   width: 50%;
@@ -83,8 +83,8 @@ header {
   
 #right-bottom-content{
   float: right;
-  overflow-x: auto;
   padding: 65px 0;
+  overflow-x: auto;
   background-color: #faebd7; 
 }
 
@@ -94,31 +94,31 @@ header {
 
 /* image block */
 #hero-image {
-    background: url('../images/pexels-elevate-1267360.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+  background: url('../images/pexels-elevate-1267360.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 #image-text {
-    width: 530px;
-    height: 270px;
-    bottom: 450px;
-    padding: 20px;
-    margin-left: 35px;
-    color: #faebd7;
-    background-color: rgba(0, 0, 0, 0.4);
-    position: relative;
+  width: 530px;
+  height: 270px;
+  bottom: 450px;
+  padding: 20px;
+  margin-left: 35px;
+  color: #faebd7;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
 }
 
 /* text block */
 #about-text, #info-text, #form-text {
-    width: 85%;
-    height: 100%;
-    margin: 0 auto;
-    overflow-x: scroll;
-    position: relative;
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  overflow-x: scroll;
+  position: relative;
 }
 
 #text-head {
@@ -126,134 +126,134 @@ header {
 }
 
 #anecdote {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* info page 2 */
 #info-list {
-    left: 25px;
-    width: 85%;
-    font-size: 25px;
-    position: inherit;
+  left: 25px;
+  width: 85%;
+  font-size: 25px;
+  position: inherit;
 }
 
 #info-list li {
-    left: -23px;
-    list-style-type: none;
-    position: relative; 
+  left: -23px;
+  list-style-type: none;
+  position: relative; 
 }
 
 .info-pointer {    
-    padding: 20px 0; 
+  padding: 20px 0; 
 }
 
 .fa-solid {
-    padding-right: 5px;
-    font-size: smaller;
+  padding-right: 5px;
+  font-size: smaller;
 }
 
 .fa-solid:hover {
-    color: #f5700db5;;
+  color: #f5700db5;;
 }
 
 #fun-facts {
-    font-size: 20px;
+  font-size: 20px;
 }
   
 #info-text a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
   
 #info-text a:hover {
-    color: #f5700db5;;
+  color: #f5700db5;;
 }
 
 /* form page 3 */
 #sign-up {
-    height: 400px;
-    width: 400px;
-    line-height: 30px;
-    text-align: left;
-    position: relative;
+  height: 400px;
+  width: 400px;
+  line-height: 30px;
+  text-align: left;
+  position: relative;
 }
 
 .sign-up-input {
-    width: 100%;
-    height: 25px;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    background-color: transparent;
+  width: 100%;
+  height: 25px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: transparent;
 }
 
 #sign-up-header {    
-    padding: 70px 0 20px 0;
+  padding: 70px 0 20px 0;
 }
 
 #sign-up > h3 {
-    text-align: center;
+  text-align: center;
 }
 #padding-top-bottom {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .item {
-    margin: 10px;
+  margin: 10px;
 }
   
 #small-label {
-    padding-left: 12px;
+  padding-left: 12px;
 }
 
 #submit {
-    margin: 45px 20px 20px 120px;
-    height: 30px;
-    width: 150px;
-    border: none;
-    font-size: 110%;
-    text-transform: uppercase;
-    background-color: #faebd7;
+  margin: 45px 20px 20px 120px;
+  height: 30px;
+  width: 150px;
+  border: none;
+  font-size: 110%;
+  text-transform: uppercase;
+  background-color: #faebd7;
 }
   
 #submit:hover {
-    background-color: #f5700db5;
+  background-color: #f5700db5;
 }
 
 /* footer style */
 footer {
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 55px;
-    z-index: 2;
-    position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 55px;
+  z-index: 2;
+  position: fixed;
 }
 
 .footer {
-    display: inline-block;
-    width: 50%;
-    font-weight: 800;
+  display: inline-block;
+  width: 50%;
+  font-weight: 800;
 }
   
 #external-navigation {
-    float: right;
-    text-align: center;
+  float: right;
+  text-align: center;
 }
 
 #external-navigation a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
   
 #external-navigation a:hover {
-    color: #f5700db5;
+  color: #f5700db5;
 }
 
 #links > li {
-    display: inline;
-    padding: 6vh;
+  display: inline;
+  padding: 6vh;
 }
 
 /* media queries*/
@@ -469,5 +469,4 @@ footer {
   #about-text, #info-text, #form-text {
     width: 95%;
   }
-  
 }
