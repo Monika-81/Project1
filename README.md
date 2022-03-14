@@ -14,7 +14,6 @@ BeerLisious is the website for a fictive beer club located in the city of Helsin
 <br>
 
 ### User experince (UX)
-![Responsitivity](assets/images/readme/resposive.png)
 
 ### Design
 ![Color scheme](assets/images/readme/color-scheme.png)
@@ -23,28 +22,26 @@ For the main page I wanted a design that makes the user think about an opend boo
 
 ## Features
 
-![Responsitivity](assets/images/readme/resposive.png)
 
 ### Existing Features
-![Responsitivity](assets/images/readme/resposive.png)
 - Navigation Bar 
 <br>
 At the top of the right side of the webpage there is an internal navigation bar that marks the current page. It will help the user choose between the about page (home page), activites page and the sign up page - also know as "join".
 <br>
-![Navigation](assets/images/readme/navbar.png)
+![Navigation]
 <br>
 <br>
 Hero Image <br>
 As part of the main design there is a "hero image" to the left of the page a desktop and tablets with a screen at 1200px or above. The same image will transform as a header image at viewports the scale of 1200px and below. The image main purpose is to  work as a mode setter and in itself subconsciously get the user to associate the site with beer. Visually it will work as a complement to the text section but if the image won't load there is a background image in a contrasting color that connects to the color scheme of the entire web page.
 <br>
-![Hero Image](./assets/images/readme/screen-hero-image.png)     ![Alternative bg](assets/images/readme/screen-bg-image.png)
+![Hero Image]    ![Alternative bg]
 <br>
 <br>
  About page
 <br>
 The main page aka the about page gives the user a short introduction to the club, who they are, why it started and it also tries to give a general feeling about the lightnes and humor of the gathering group while being infrormative. The main design team of the page was to make it easy to read, sleek in the design and yet introduce the user to the club and it's purpose. 
 <br>
-![About Page](assets/images/readme/about-page.png)
+![About Page]
 <br>
 <br>
 Activities page

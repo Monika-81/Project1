@@ -295,12 +295,12 @@ footer {
     margin-left: 15px;
   }
 
-  .text-head {
-    margin-top: 40px;
-  }
-
   .info-list {
     font-size: 20px;
+  }
+
+  .text-head {
+    margin-top: 40px;
   }
 
   .fun-facts {
@@ -358,12 +358,12 @@ footer {
    margin-left: 15px;
   }
 
-  .text-head {
-    margin-top: 40px;
-  }
-
   .info-text {
     width: 90%;
+  }
+
+  .text-head {
+    margin-top: 40px;
   }
 
   .sign-up-header {
