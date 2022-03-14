@@ -300,6 +300,10 @@ footer {
     margin-top: 40px;
   }
 
+  .info-list {
+    font-size: 20px;
+  }
+
   .fun-facts {
     font-size: 17px;
   }
@@ -429,7 +433,7 @@ footer {
   }
 
   .info-list li {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .sign-up {
@@ -440,8 +444,7 @@ footer {
     line-height: 15px;
     
   }
-
-   .sign-up-header {
+  .sign-up-header {
     margin: 20px 0;
   }
 }
@@ -462,12 +465,20 @@ footer {
     margin-top: 10px;
   }
 
+  footer, header {
+    height: 35px;
+  }
+
   .menu li, .links li {
     margin: 0 10px;
   }
 
   .internal-navigation a, .external-navigation a {
     font-size: 18px;
+  }
+
+  .right-bottom-content {
+    padding: 45px 0 40px;
   }
 
   .image-text {
@@ -506,6 +517,10 @@ footer {
 
   .submit {
     margin: 20px 30%;
+  }
+
+  footer, header {
+    height: 35px;
   }
 }
 
