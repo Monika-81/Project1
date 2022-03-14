@@ -16,12 +16,12 @@
     <!-- fixed header with site nav menu to the right-->
     <header>
         <div class="header header-spacer"></div>
-        <div class="header internal-navigation">
+        <div class="header internal-navigation" aria-label="Internal navigation">
             <nav>
                 <ul class="menu">
-                    <li><a href="index.html">about</a></li>
-                    <li><a href="info.html">activities</a></li>
-                    <li><a href="form.html" class="active">join</a></li>
+                    <li><a href="index.html"  aria-label="Go to the home page">about</a></li>
+                    <li><a href="info.html" aria-label="Go to activities page">activities</a></li>
+                    <li><a href="form.html" aria-label="Go to sign up page" class="active">join</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,24 +31,24 @@
        <section class="main-content left-top-content">
            <!--image applied in stylesheet-->
            <div class="hero-image">
-                <div class="image-text">
-                    <h1><a href="index.html">BeerLicious</a></h1>
+                <div class="image-text" aria-label="Logo">
+                    <h1><a href="index.html" aria-label="Go to the home page">BeerLicious</a></h1>
                     <h2>A Beer Club in Helsingborg</h2>
                 </div>
             </div> 
        </section>
-       <section class="main-content right-bottom-content">
+       <section class="main-content right-bottom-content" aria-label="Text content">
         <div class="info-text">
-            <h1 class="text-head">Wanna join?</h1>
+            <h1 class="text-head" aria-label="Page title">Wanna join?</h1>
             <p>To join our club you simply submit your contact information at the form below. Note that there is a
                 small registration fee of 200:- sek that will be sent to you after sign up*, but in return you
                 get to choose between a cool black club t-shirt or cap with our logo on! So we all can look cool
                 tasting beer together!
             </p>
             <p>Feel free to email us at this address <a href="mailto:info@beerlicious.se" target="_blank" rel="noopener noreferrer"
-               aria-label="Send us an email (opens in separate mail application)"><strong>info@beerlicious.se</strong></a> if you have any questions!
+               aria-label="Send us an email (opens external email client)"><strong>info@beerlicious.se</strong></a> if you have any questions!
             </p>
-            <form class="sign-up" action="https://formdump.codeinstitute.net/" method="post">
+            <form class="sign-up" action="https://formdump.codeinstitute.net/" method="post" aria-label="Sign up form">
                 <h2 class="sign-up-header">Sign up here:</h2>
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" class="sign-up-input" name="first-name" required>
@@ -66,7 +66,7 @@
                 <input type="radio" id="large" class="item" name="item" value="large">
                 <label for="cap">Cap</label>
                 <input type="radio" id="cap" class="item" name="item" value="cap">
-                <input type="submit" class="submit" value="Sign Up!">
+                <input type="submit" class="submit" value="Sign Up!" aria-label="Sign up button">
             </form>
         </div>
        </section> 
@@ -74,7 +74,7 @@
     <!-- fixed footer with social media and external nav to the right--> 
     <footer>
         <div class="footer footer-spacer"></div>
-        <div class="footer external-navigation">
+        <div class="footer external-navigation" aria-label="External communication"> 
             <nav>
                 <ul class="links">
                     <li><a href="https://facebook.com" target="_blank" rel="external noopener"
@@ -82,7 +82,7 @@
                     <li><a href="https://instagram.com" target="_blank" rel="external noopener"
                             aria-label="Go to our page on Instagram (opens in new tab)">instagram</a></li>
                     <li><a href="mailto:info@beerlicious.se" target="_blank" rel="noopener noreferrer"
-                            aria-label="Send us an email (opens in separate mail application)">mail</a></li>
+                            aria-label="Send us an email (opens external email client)">mail</a></li>
                 </ul>
             </nav>
         </div>
