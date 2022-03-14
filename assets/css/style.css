@@ -181,6 +181,7 @@ h1 > a {
 .sign-up-input {
   width: 100%;
   height: 25px;
+  margin-bottom: 10px;
   border-left: none;
   border-top: none;
   border-right: none;
@@ -195,6 +196,7 @@ h1 > a {
   font-size: 25px; 
   text-align: center;
 }
+
 .margin-top-bottom {
   margin: 20px 0;
 }
@@ -383,8 +385,8 @@ footer {
   }
 }
 
-  /* screens size min-width 700px, height 700px or below */
-@media screen and (max-height: 700px) and (min-width: 700px){
+  /* landscape - screens size min-width 1000px, height 700px or below */
+@media screen and (max-height: 700px) and (min-width: 1000px){
   h1 {
     font-size: 80px;
   }
@@ -436,6 +438,7 @@ footer {
     margin: 0;
     font-size: small;
     line-height: 15px;
+    
   }
 
    .sign-up-header {
@@ -443,6 +446,70 @@ footer {
   }
 }
 
+/* landscape - screens size max-width 1000px, height 700px or below */
+@media screen and (max-height: 700px) and (max-width: 1000px){
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+  }
+
+  .menu li, .links li {
+    margin: 0 10px;
+  }
+
+  .internal-navigation a, .external-navigation a {
+    font-size: 18px;
+  }
+
+  .image-text {
+    max-width: 50vw;
+    max-height: 100px;
+    margin: 0;
+    left: 0;
+    top: 50%;
+    padding: 10px;
+  }
+
+  .text-head {
+    margin-top: 0;
+  }
+
+  .info-list {
+    font-size: 18px;
+  }
+
+  .sign-up {
+    width: 80%;
+    height: 50%;
+    margin: 0;
+    font-size: small;
+    line-height: 15px;
+  }
+
+  .sign-up > h2 {
+    font-size: 20px; 
+    text-align: left;
+  }
+
+  .sign-up-header {
+    margin: 20px 0;
+  }
+
+  .submit {
+    margin: 20px 30%;
+  }
+}
+
+    
 /* screens size 600px width or below */
 @media screen and (max-width: 600px) {
   h1 {
