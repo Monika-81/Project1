@@ -58,7 +58,7 @@ header {
 }
   
 .internal-navigation a:hover {
-  color: rgba(245, 112, 13, 0.71);
+  color: rgba(245, 112, 13, 1);
 }
 
 .menu li {
@@ -80,7 +80,7 @@ header {
   
 .left-top-content {
   float: left;
-  background-color: rgba(245, 112, 13, 0.71);
+  background-color: rgba(245, 112, 13, 1);
 }
   
 .right-bottom-content{
@@ -104,7 +104,6 @@ header {
 
 .image-text {
   width: 530px;
-  height: 270px;
   top: 70%;
   padding: 20px;
   margin-left: 35px;
@@ -142,7 +141,7 @@ h1 > a {
   
 .info-text a:hover {
   font-weight: 800;
-  color: rgba(245, 112, 13, 0.71);
+  color: rgba(245, 112, 13, 1);
 }
 
 /* info page 2 */
@@ -221,7 +220,7 @@ h1 > a {
 }
   
 .submit:hover {
-  background-color: rgba(245, 112, 13, 0.71);
+  background-color: rgba(245, 112, 13, 1);
 }
 
 /* styles input elements in form*/
@@ -270,7 +269,7 @@ footer {
 }
   
 .external-navigation a:hover {
-  color: rgba(245, 112, 13, 0.71);
+  color: rgba(245, 112, 13, 1);
 }
 
 .links > li {
@@ -355,8 +354,8 @@ footer {
   }
 
   .image-text {
-    top: 50%;
-    margin-left: 15px;
+    width: 420px;
+   margin-left: 15px;
   }
 
   .text-head {
@@ -486,7 +485,6 @@ footer {
     max-height: 100px;
     margin: 0;
     left: 0;
-    top: 50%;
     padding: 10px;
   }
 
