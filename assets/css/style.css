@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Londrina+Shadow&display=swap');
+
 /* general page style*/
 * {
   padding: 0;
@@ -143,6 +144,7 @@ h1 > a {
   font-weight: 800;
   color: rgba(245, 112, 13, 0.71);
 }
+
 /* info page 2 */
 .info-list {
   left: 25px;
@@ -276,7 +278,7 @@ footer {
 
 /* media queries*/
 
-/* screens size 1600px or below */
+/* screens size width 1600px or below */
 @media screen and (max-width: 1600px) {
   p {
     font-size: 22px;
@@ -300,7 +302,8 @@ footer {
     font-size: 17px;
   }
 }
-/* screens size 1200px or below */
+
+/* screens size min-height 701px, width 1200px or below */
 @media screen and (max-width: 1200px) and (min-height: 701px){
   h1 {
     font-size: 80px;
@@ -380,7 +383,7 @@ footer {
   }
 }
 
-  /* screens size min-width 700px, 700px height or below */
+  /* screens size min-width 700px, height 700px or below */
 @media screen and (max-height: 700px) and (min-width: 700px){
   h1 {
     font-size: 80px;
@@ -422,6 +425,7 @@ footer {
   .text-head {
     margin-top: 0;
   }
+
   .info-list li {
     font-size: 20px;
   }
@@ -588,7 +592,7 @@ footer {
   }
 }
 
-/* screens size 300px or below */
+/* screens size width 300px or below */
 @media screen and (max-width: 300px) {
   .internal-navigation a, .external-navigation a  {
     font-size: 15px;
