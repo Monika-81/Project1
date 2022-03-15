@@ -36,11 +36,11 @@ Let me introduce you further to [**BeerLicious**](https://monika-81.github.io/pr
     - [Content](#content)
     - [Media](#media)
 
-    
+[Back to top](#beerlicious)
+
 ---
 
 ## **Design**
-
 <br>
 
 ### **The layout**
@@ -58,7 +58,7 @@ With the BeerLicious website I wanted the story of the site to start on the left
 
 ![Hero image](assets/images/readme/hero-image.png) ![Alternativ image](assets/images/pexels-elevate-1267358.jpg) 
 <br>
-
+<br>
 
 ### **Color scheme**
 The goal of the design is to keep a clean and consistent user experience throughout the pages. With a light background/dark text set up and one accent color that associates the user with beer. The color was picked from the hero image using Chrome DevTools color dropper tool, then adjusted slightly so the text would still be readable if the image won't load. A color palette was created with the help of [Colormind](http://www.colormind.io) to work as a design foundation during the project.
@@ -81,7 +81,7 @@ The accent color can be seen while hovering over one of the links on the page, t
 ![Hover Nav](assets/images/readme/hover-nav.png) ![Hover button](assets/images/readme/hover-sign-up.png) 
 ![Hover Link](assets/images/readme/hover-link.png)
 <br>
-
+<br>
 
 ### **Fonts**
 The BeerLicious site want the user to get a taste of the lightheartedness and humor of the club. In line with that the fonts for the project was chosen to be playful. 
@@ -98,7 +98,6 @@ The BeerLicious site want the user to get a taste of the lightheartedness and hu
 ---
 
 ## **Features**
-
 <br>
 
 ### **Navigation bar**
@@ -162,7 +161,6 @@ At the bottom of the screen, the user finds the external navigation links to soc
 ---
 
 ## **Technologies**
-
 <br>
 
 ### **Languages**
@@ -292,7 +290,6 @@ The project was deployed to **GitHub** using **GitPod**:
 ---
 
 ## **Credits**
-
 <br>
 
 ### **Content**
