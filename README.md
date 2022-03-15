@@ -93,6 +93,8 @@ The BeerLicious site want the user to get a taste of the lightheartedness and hu
 ![Fredoka](assets/images/readme/fredoka.png)
 <br>
 
+[Back to top](#beerlicious)
+
 ---
 
 ## **Features**
@@ -155,6 +157,8 @@ At the bottom of the screen, the user finds the external navigation links to soc
 <br>
 <br>
 
+[Back to top](#beerlicious)
+
 ---
 
 ## **Technologies**
@@ -174,6 +178,9 @@ At the bottom of the screen, the user finds the external navigation links to soc
 - [GitHub](https://github.com/)
 - [Google Fonts](https://fonts.google.com/)
 <br>
+
+
+[Back to top](#beerlicious)
 
 ---
 
@@ -254,13 +261,19 @@ The major bugs (that are now fixed) where:
 - Due to large images and split screen design, the media query adjustments required a lot of trial and errors remodeling before the result was okay on all the devices testable by chrome DevTools. Both in standing and landscape mood.
 - The image text was not contrasting enough against the hero image, an overlay was added.
 - The text segment didn't scroll as wanted.
-For most of the bug fixes I went back to the LMS and the learning material for the HTML ans CSS course section and found the answers there. In a few cases I consulted external sources while searching for the aswer using [Google](www.google.com). For more information about the external code used, see the [Credits](#credits) section.
 
-There are also a few bugs left to fix that won't respond as I wish at the moment. Even though I tried to fix it, there is always room for improvement and as I learn to become a better developer, I look forward to in the future fix:
-- There are areas of blank space on the home page and activities page while the screen is in standing position. As I've tried to fix it so far, the area on the join page has either partly been covered by the footer or "double scrolled" in under the hero image.
-- While the site is responsive, it is still to static in the site transformation. I would like it to be more flexible.
+For most of the bug fixes I went back to the [Code Institute](https://codeinstitute.net/) LMS and the learning material for the HTML ans CSS module and found the answers there. In a few cases I consulted external sources while searching for the answer using [Google](www.google.com). For more information about the external code used, see the [Credits](#credits) section below.
+
+<br>
+
+There are also a few bugs left to fix that won't respond as I wish at the moment. Even though I tried to fix it, there is always room for improvement. Ass I become a better software developer in the future, I look forward to coming back to this project to fix:
+- Areas of blank space on the home page and activities page while the screen is in standing position. My attempts to fix it so far resulted in that the equivalent area on the join page has either partly covered by the footer or "double scrolling" in under the hero image.
+- While the site is responsive, it is still static when the screen size changes are applied by freely adjusting the screen size in a browser window. I would like the changes in response to be more fluid in the future.
 - I'd also like to add a live calendar section and a page where the club members can order club merchandise. As well as an interactive gallery displaying past events and gatherings organized by the club.
 <br>
+
+
+[Back to top](#beerlicious)
 
 ---
 
@@ -274,6 +287,8 @@ The project was deployed to **GitHub** using **GitPod**:
 - On top of the screen there will be a massage displayed with the active link.
 <br>
 
+[Back to top](#beerlicious)
+
 ---
 
 ## **Credits**
@@ -284,7 +299,6 @@ The project was deployed to **GitHub** using **GitPod**:
 - Fun fact quote underneath the activities list on page two was taken from an article about International Beer Day 2021 in [Indiatimes.com](https://www.indiatimes.com/trending/social-relevance/international-beer-day-facts-about-beer-546635.html).
 - The color palette was created using [Colormind](http://www.colormind.io)
 - The [Fredoka](https://fonts.google.com/specimen/Fredoka?query=fredok) and [Londrina Shadow](https://fonts.google.com/specimen/Londrina+Shadow?query=londrina) fonts come from [Google Fonts](https://fonts.google.com/).
-<br>
 <br>
 
 I **consulted** following sites for help with code design:
@@ -310,8 +324,9 @@ All three codes was tested through the live server in chrome before commited to 
 ### **Media**
 - The hero images for both landscape and standing view of the screen comes from the artist ELEVATE at [Pexels.com](https://www.pexels.com/sv-se/@elevate).
 - The beer mug icon on the same page are from [Font Awesome](https://fontawesome.com/).
-<br>
 - The image at the top of this page, that shows how the website is presented on different media screens are a screenshot from [Am I responsive?](http://ami.responsivedesign.is/)
+
+[Back to top](#beerlicious)
 
 ---
 
