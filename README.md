@@ -84,11 +84,13 @@ The accent color can be seen while hovering over one of the links on the page, t
 
 
 ### **Fonts**
-BeerLicious site want the user to get a taste of the lightheartedness and humor of the club. In line with that the fonts for the project was chosen to be playful. 
+The BeerLicious site want the user to get a taste of the lightheartedness and humor of the club. In line with that the fonts for the project was chosen to be playful. 
 - The first font "Londrina Shadow" is used for the main titles. Both for the club logo and as a title for each page. 
-- The second font "Fredoka" is the font used for the rest of the text content. But for the text underneath the BeerLicius club name as well as for all the article and list text.
+- The second font "Fredoka" is the font used for the rest of the text content. But for the text underneath the BeerLicious club name as well as for all the article and list text.
 
-![Londrina Shadow](assets/images/readme/Londrina-shadow.png) ![Fredoka](assets/images/readme/fredoka.png)
+![Londrina Shadow](assets/images/readme/Londrina-shadow.png)
+<br>
+![Fredoka](assets/images/readme/fredoka.png)
 <br>
 
 ---
@@ -181,14 +183,14 @@ At the bottom of the screen, the user finds the external navigation links to soc
 ### **Manual testing**
 
 During the entire developing stage I repeatedly tested the elements added and altered regarding appearance as well as responsiveness via the simulated live server GitPod provides. After the site was live deployed I also checked the site regularly trough my smartphone for first hand updates on a live mobile viewport.
+<br>
 
 - [DevTools](https://developer.chrome.com/docs/devtools/)
-<br>
 
 In combination with the direct visual view of the page provided by the live server I frequently used Google Chrome developer tools, both for direct changes of the code as well as the tools for responsive testing of different platforms and screen sizes.
+<br>
 
 - [Am I responsive?](http://ami.responsivedesign.is/)
-<br>
 
 To get a second opinion of how the site worked in regard to different screen sizes, I checked the result at "Am I Responsive?"
 <br>
@@ -198,9 +200,9 @@ To get a second opinion of how the site worked in regard to different screen siz
 <br>
 
 - [HTML and CSS Validation](https://www.w3schools.com/) 
-<br>
 
 When the basic structure of the project was done I ran code validation through W3Schools Validator for all the HTML files as well as the CSS file. This procedure was repeated multiple times to validate that the code was working during the developing process. 
+<br>
 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
@@ -213,7 +215,16 @@ Both platforms where used for validation and accessibility testing at the final 
 
 **W3School**
 
-![HTML](assets/images/readme/w3s-validator-final.png) ![CSS](assets/images/readme/End-test%20CSS.png)
+HTML<br>
+
+![HTML](assets/images/readme/w3s-validator-final.png)
+<br>
+
+CSS
+<br>
+
+![CSS](assets/images/readme/End-test%20CSS.png)
+
 <br>
 <br>
 
@@ -221,7 +232,7 @@ Both platforms where used for validation and accessibility testing at the final 
 
 ![Lighthouse Desktop](assets/images/readme/lighthouse-final-desktop.png)
 <br>
-(The same result on all pages.)
+(Desktop, the same result on all pages.)
 <br>
 <br>
 
@@ -243,6 +254,7 @@ The major bugs (that are now fixed) where:
 - Due to large images and split screen design, the media query adjustments required a lot of trial and errors remodeling before the result was okay on all the devices testable by chrome DevTools. Both in standing and landscape mood.
 - The image text was not contrasting enough against the hero image, an overlay was added.
 - The text segment didn't scroll as wanted.
+For most of the bug fixes I went back to the LMS and the learning material for the HTML ans CSS course section and found the answers there. In a few cases I consulted external sources while searching for the aswer using [Google](www.google.com). For more information about the external code used, see the [Credits](#credits) section.
 
 There are also a few bugs left to fix that won't respond as I wish at the moment. Even though I tried to fix it, there is always room for improvement and as I learn to become a better developer, I look forward to in the future fix:
 - There are areas of blank space on the home page and activities page while the screen is in standing position. As I've tried to fix it so far, the area on the join page has either partly been covered by the footer or "double scrolled" in under the hero image.
@@ -299,6 +311,7 @@ All three codes was tested through the live server in chrome before commited to 
 - The hero images for both landscape and standing view of the screen comes from the artist ELEVATE at [Pexels.com](https://www.pexels.com/sv-se/@elevate).
 - The beer mug icon on the same page are from [Font Awesome](https://fontawesome.com/).
 <br>
+- The image at the top of this page, that shows how the website is presented on different media screens are a screenshot from [Am I responsive?](http://ami.responsivedesign.is/)
 
 ---
 
