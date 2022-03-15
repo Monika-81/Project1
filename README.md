@@ -176,10 +176,10 @@ At the bottom of the screen, the user finds the external navigation links to soc
 <br>
 
 - [Balsamiq](https://balsamiq.com/)
-    - I used Balsamiq to make  the basic wireframes for this project.
+    - I used Balsamiq to make the basic wireframes for this project.
 
-- [Browserstack](https://browserstack.com)
-    - I used Browserstack to test for browser compatibility.
+- [BrowserStack](https://browserstack.com)
+    - I used BrowserStack to test for browser compatibility.
 
 - [Colormind](http://www.colormind.io)
     - I used Colormind to create a color palette for my color scheme.
@@ -188,7 +188,7 @@ At the bottom of the screen, the user finds the external navigation links to soc
     -  I used DevTools to test both changes in my code as well as the responsibility of the site.  
 
 - [Font Awesome](https://fontawesome.com)
-    - I used Font Awesome for find the icon used ont the site.
+    - I used Font Awesome for find the icon used on the site.
 
 - [GitPod](https://www.gitpod.io/)
     - I used GitPod as the code editor for this project.
@@ -197,10 +197,10 @@ At the bottom of the screen, the user finds the external navigation links to soc
     - I used GitHub to create a repository for my project and to deploy my site.
 
 - [Google Fonts](https://fonts.google.com/)
-    - I used Google Fonts fto find the fonts used on the site.
+    - I used Google Fonts to find the fonts used for the site.
 
-- [Lambdatest](https://lambdatest.com)
-    - I used Lamdatest to test for browser compatibility.
+- [Lambda Test](https://lambdatest.com)
+    - I used Lamda Test to test for browser compatibility.
 
 - [Responsive Design Checker](https://responsivedesignchecker.com)
     - I used Responsive Design Checker to test the responsibility of the site.
@@ -221,7 +221,7 @@ At the bottom of the screen, the user finds the external navigation links to soc
 ## **Testing**
 <br>
 
-For more information about the testing perforemed during the development, go to the separate [testing](/TESTING.md) page.
+For more information about the testing performed during the development, go to the separate [testing](/TESTING.md) page.
 <br>
 <br>
 
@@ -237,6 +237,13 @@ The project was deployed to **GitHub** using **GitPod**:
 - Go to *settings* in the upper menu, and then choose *pages* in the left-hand menu.
 - Under the Source section, select the *Main branch* from the drop-down menu and click Save.
 - On top of the screen there will be a massage displayed with the active link.
+<br>
+
+A copy of this GitHub Repository can be made by forking the GitHub content. By using a copy of the repository, changes can be made to the copy without affecting the original code. To make a copy of the repository, follow these steps:
+
+- Locate the repository at **GitHub**.
+- At the top right-hand side is a button called *fork*, click on the button to create a copy of the original repository in your GitHub Account.
+<br>
 <br>
 
 [Back to top](#beerlicious)

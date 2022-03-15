@@ -4,8 +4,8 @@
     - Responsive Design Checker
     - DevTools
     - Am I responsive?
-    - Lamdatest
-    - Browserstack
+    - Lamda Test
+    - BrowserStack
 2. [Code validation](#code-validation)
     - W3Schools
         - HTML
@@ -35,14 +35,14 @@ In combination with the direct visual view of the page provided by the live serv
 
 - [Am I responsive?](http://ami.responsivedesign.is/)
 
-To get a second opinion of how the site worked in regard to different screen sizes, I checked the result at "Am I Responsive?" The result was shown as a screenshot at the [top](#beerlicious) of this document.
+To get a second opinion of how the site worked in regard to different screen sizes, I checked the result at "Am I Responsive?" The result is shown as a screenshot at the [introduction](./README.md) of the project.
 
 <br>
 
 - [Lambdatest](https://lambdatest.com)
 - [Browserstack](https://browserstack.com)
 
-The websites compatability to various browsers (Chrome, Safari, Opera, Firefox, Internet Explorer, Edge, WC Browser and Yandex) including diffrent versions of said browsers, was tested using the Lamdatest application as well as Browserstack on both desktop and mobile. Diffrent mobile versions was tested also for diffrent browsers. Over all the appearance, functionality and responsiveness were consistent throughout for most of the devices and browsers. The notable diffrence in apperence I found was that the scrollbar are not hidden in Firefox and Internet Explorer for desktop. And on mobile the safari browser enlarged the form size the scewed the design, also the safari browser allowed for input data to be sent without all the required fields. Exampels of tested platforms is shown below.
+The websites compatability to various browsers (Chrome, Safari, Opera, Firefox, Internet Explorer, Edge, WC Browser and Yandex) including diffrent versions of said browsers, was tested using the Lamda Test application as well as BrowserStack on both desktop and mobile. Diffrent mobile versions was tested also for diffrent browsers. Over all the appearance, functionality and responsiveness were consistent throughout for most of the devices and browsers. The notable diffrence in apperence I found was that the scrollbar are not hidden in Firefox and Internet Explorer for desktop. And on mobile the safari browser enlarged the form size the scewed the design, also the safari browser allowed for input data to be sent without all the required fields. Exampels of tested platforms is shown below.
 
 <br>
 
@@ -138,7 +138,7 @@ There where a number of bugs and mishaps committed through the development as I 
 
 <br>
 
-For most of the bug fixes I went back to the [Code Institute](https://codeinstitute.net/) LMS and the learning material for the HTML ans CSS module and found the answers there. I also turned to the Slack community and the search function, where I found many answers. In a few cases I consulted external sources while searching for the answer using [Google](www.google.com. For more information about the external code used, see the section on the previous page.
+For most of the bug fixes I went back to the [Code Institute](https://codeinstitute.net/) LMS and the learning material for the HTML ans CSS module and found the answers there. I also turned to the Slack community and the search function, where I found many answers. In a few cases I consulted external sources while searching for the answer using [Google](www.google.com). For more information about the external code used, see the section on the previous page.
 
 <br>
 
