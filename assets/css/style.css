@@ -86,7 +86,7 @@ header {
 .right-bottom-content{
   float: right;
   padding: 65px 0;
-  overflow-x: auto;
+  overflow: auto;
 }
 
 /* Code source: https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll*/
@@ -123,7 +123,7 @@ h1 > a {
   width: 85%;
   height: 100%;
   margin: 0 auto;
-  overflow-x: scroll;
+  overflow: scroll;
   position: relative;
 }
 
@@ -346,7 +346,7 @@ footer {
   .right-bottom-content {
     width: 100%;
     padding: 0 0 65px;
-    overflow-x: inherit;
+    overflow: inherit;
     float: left;
     clear: both;
   }
@@ -422,7 +422,7 @@ footer {
   .right-bottom-content{
     float: right;
     clear: none;
-    overflow-x: auto;
+    overflow: auto;
   }
 
   .image-text {
@@ -583,7 +583,7 @@ footer {
     padding: 0 0 65px;
     float: left;
     clear: both;
-    overflow-x: auto;
+    overflow: auto;
   }
   
   .hero-image {

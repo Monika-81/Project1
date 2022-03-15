@@ -28,13 +28,13 @@ Let me introduce you further to [**BeerLicious**](https://monika-81.github.io/pr
 3. [**Technologies**](#technologies)
 
 4. [**Testing**](#testing)
-    - [Bugs and fixes](#bugs-and-fixes)
-
+    
 5. [**Deployment**](#deployment)
 
 6. [**Credits**](#credits)
     - [Content](#content)
     - [Media](#media)
+    - [Acknowledgement](#acknowledgement)
 
 [Back to top](#beerlicious)
 
@@ -44,7 +44,7 @@ Let me introduce you further to [**BeerLicious**](https://monika-81.github.io/pr
 <br>
 
 ### **The layout**
-The design choice for the BeerLicious main page for desktop aims to get the user to think about an open book or magazine, like looking at a "club brochure" through a screen. With a decorative image to the left to set the mode as well as visually inform the user what the site is about. For standing devises the image is instead set at the top to welcome the user.
+The design choice for the BeerLicious main page for desktop aims to get the user to think about an open book or magazine, like looking at a "club brochure" through a screen. With a decorative image to the left to set the mode as well as visually inform the user what the site is about. For portrait oriented devises the image is instead set at the top to welcome the user.
 
 - **Wireframes**
   Initially the design idea was sketched with pen and paper and thereafter transformed to basic wireframes for a clearer visual approached of the end result. The desktop version shows the main design goal of the split screen display. The split screen display was also added to the mobile screen in landscape position for a consistent design. For tablet format the mobile wireframe was slightly changed with a bigger hero image to welcome the user. But overall the main design idea was kept throughout the project.
@@ -54,7 +54,7 @@ The design choice for the BeerLicious main page for desktop aims to get the user
 <br>
 
 ### **Hero Image**
-With the BeerLicious website I wanted the story of the site to start on the left-hand side with an image that visually informs the user of what sort of content to expect. The overall design of the picture needed to be a darker setting to contrast the lighter text block to the right of the screen. The idea was to combine the color nuances of the hero image with the color theme, so the larger picture contains a beer class with a color that was similar to the accent color idea of the project. Two different pictures was chosen for different screen alignment, one for desktop and landscape view and one for smaller standing devises. A smaller picture on a smaller screen also makes the site more responsive.
+With the BeerLicious website I wanted the story of the site to start on the left-hand side with an image that visually informs the user of what sort of content to expect. The overall design of the picture needed to be a darker setting to contrast the lighter text block to the right of the screen. The idea was to combine the color nuances of the hero image with the color theme, so the larger picture contains a beer class with a color that was similar to the accent color idea of the project. Two different pictures was chosen for different screen alignment, one for desktop and landscape mode and one for smaller portrait mode devises. A smaller picture on a smaller screen also makes the site more responsive.
 
 ![Hero image](assets/images/readme/hero-image.png) ![Alternativ image](assets/images/pexels-elevate-1267358.jpg) 
 <br>
@@ -101,7 +101,7 @@ The BeerLicious site want the user to get a taste of the lightheartedness and hu
 <br>
 
 ### **Navigation bar**
-At the top of the website there is an internal navigation bar that will help the user choose between the "about page" (home page), "activities page" and the "sign up page" - also know as "join". The current page the user is visiting is marked for easier navigation on the site. On desktop and landscape oriented screens the navigation bar is located to the top right side of the page, and on standing devices the navigation bar is fixed at the top of the screen.
+At the top of the website there is an internal navigation bar that will help the user choose between the "about page" (home page), "activities page" and the "sign up page" - also know as "join". The current page the user is visiting is marked for easier navigation on the site. On desktop and landscape oriented screens the navigation bar is located to the top right side of the page, and on portrait oriented devices the navigation bar is fixed at the top of the screen.
 <br>
 
 ![Navigation](assets/images/readme/navbar.png) 
@@ -112,7 +112,7 @@ At the top of the website there is an internal navigation bar that will help the
 As part of the main design there is a "hero image" to the left of the page at desktop and screens in lanscape position. The same image will transform as a header image at viewports the scale of 1200px down to 600px therafter a smaller image will serve as the hero image. The image main purpose is to set the mode and in itself get the user to associate the site with beer. Visually it will work as a complement to the text section but if the image won't load there is a background color in the accent color that connects to the color scheme of the entire web page. The logo "BeerLicious" that rest on top off the hero image acts both as an title to the entire page but also works as a internal link to the home page of the site. Giving the user the option to interact with the image text to take them back to the home page.   
 <br>
 
-![Hero Image](assets/images/readme/hero-image-about.png) ![Alternative bg](assets/images/readme/screen-bg-image.png) ![Tablet screen](assets/images/readme/ipad-mini.png) ![Standing screen image](assets/images/readme/mobile.png) 
+![Hero Image](assets/images/readme/hero-image-about.png) ![Alternative bg](assets/images/readme/screen-bg-image.png) ![Tablet screen](assets/images/readme/ipad-mini.png) ![Portrait screen image](assets/images/readme/mobile.png) 
 <br>
 <br>
 
@@ -149,7 +149,7 @@ After the user have succesfully submitted the form the user is greeted with a co
 <br>
 
 ### **External Links**
-At the bottom of the screen, the user finds the external navigation links to social media as well as to open a email client to send an email to the BeerLicios club directly. The position of the navigation bar at the bottom mimics the navigation bar at the top of the page. On desktop and landscape oriented screens the navigation bar is located to the bottom right side of the page, and on standing devices the navigation bar is fixed at the bottom of the screen.
+At the bottom of the screen, the user finds the external navigation links to social media as well as to open a email client to send an email to the BeerLicios club directly. The position of the navigation bar at the bottom mimics the navigation bar at the top of the page. On desktop and landscape oriented screens the navigation bar is located to the bottom right side of the page, and on portrait oriented devices the navigation bar is fixed at the bottom of the screen.
 <br>
 
 ![External navigation](assets/images/readme/external-links.png)
@@ -164,17 +164,53 @@ At the bottom of the screen, the user finds the external navigation links to soc
 <br>
 
 ### **Languages**
-- HTML5
-- CSS3
+<br>
+
+- **HTML5**
+<br> I used HTML to create the base structure of the project. I started with a basic bolierplate set up and created the first crude structure of the page out of the original design. 
+
+- **CSS3**
+<br> The CSS was used to apply the custom styles to the HTML skeleton. In a seperate document the positioning and creation for the whole design come forth. 
 
 ### **Tools**
+<br>
+
 - [Balsamiq](https://balsamiq.com/)
+    - I used Balsamiq to make  the basic wireframes for this project.
+
+- [Browserstack](https://browserstack.com)
+    - I used Browserstack to test for browser compatibility.
+
 - [Colormind](http://www.colormind.io)
+    - I used Colormind to create a color palette for my color scheme.
+
 - [DevTools](https://developer.chrome.com/docs/devtools/)
+    -  I used DevTools to test both changes in my code as well as the responsibility of the site.  
+
 - [Font Awesome](https://fontawesome.com)
+    - I used Font Awesome for find the icon used ont the site.
+
 - [GitPod](https://www.gitpod.io/)
+    - I used GitPod as the code editor for this project.
+
 - [GitHub](https://github.com/)
+    - I used GitHub to create a repository for my project and to deploy my site.
+
 - [Google Fonts](https://fonts.google.com/)
+    - I used Google Fonts fto find the fonts used on the site.
+
+- [Lambdatest](https://lambdatest.com)
+    - I used Lamdatest to test for browser compatibility.
+
+- [Responsive Design Checker](https://responsivedesignchecker.com)
+    - I used Responsive Design Checker to test the responsibility of the site.
+
+- [WAVE](https://wave.webaim.org/)
+    - I used Responsive Design Checker to test the responsibility of the site.
+
+- [W3Schools](https://www.w3schools.com/) 
+    - I used W3C to test and validate my code throughout the project. 
+
 <br>
 
 
@@ -185,91 +221,9 @@ At the bottom of the screen, the user finds the external navigation links to soc
 ## **Testing**
 <br>
 
-### **Manual testing**
-
-During the entire developing stage I repeatedly tested the elements added and altered regarding appearance as well as responsiveness via the simulated live server GitPod provides. After the site was live deployed I also checked the site regularly trough my smartphone for first hand updates on a live mobile viewport.
-<br>
-
-- [DevTools](https://developer.chrome.com/docs/devtools/)
-
-In combination with the direct visual view of the page provided by the live server I frequently used Google Chrome developer tools, both for direct changes of the code as well as the tools for responsive testing of different platforms and screen sizes.
-<br>
-
-- [Am I responsive?](http://ami.responsivedesign.is/)
-
-To get a second opinion of how the site worked in regard to different screen sizes, I checked the result at "Am I Responsive?"
+For more information about the testing perforemed during the development, go to the separate [testing](/TESTING.md) page.
 <br>
 <br>
-
-### **Code validation**
-<br>
-
-- [HTML and CSS Validation](https://www.w3schools.com/) 
-
-When the basic structure of the project was done I ran code validation through W3Schools Validator for all the HTML files as well as the CSS file. This procedure was repeated multiple times to validate that the code was working during the developing process. 
-<br>
-
-- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
-
-I also ran the page through Lighthouse for both desktop and mobile to test out the performance and accessibility of the page. The input gave me further information how to proceed with the project, and was repeated after major changes and bug fixes. 
-<br>
-
-Both platforms where used for validation and accessibility testing at the final stage of the project. The final result is shown below: 
-<br>
-<br>
-
-**W3School**
-
-HTML<br>
-
-![HTML](assets/images/readme/w3s-validator-final.png)
-<br>
-
-CSS
-<br>
-
-![CSS](assets/images/readme/End-test%20CSS.png)
-
-<br>
-<br>
-
-**Lighthouse** 
-
-![Lighthouse Desktop](assets/images/readme/lighthouse-final-desktop.png)
-<br>
-(Desktop, the same result on all pages.)
-<br>
-<br>
-
-![Lighthouse Mobile](assets/images/readme/lighthouse-mobile-finished.png)
-<br>
-(The mobile performance of 95% occurred on the activities page due to the image loaded, while running the same test on the other pages of the site the rating was 99%.)
-<br>
-<br>
-
-### **Bugs and fixes**
-There where a number of bugs and mishaps committed through the development as I tried to learn the best way to code the website. 
-The major bugs (that are now fixed) where:
-- The hero image didn't fit the intended content area.
-- Image text didn't stay where it was intended while testing the site's responsiveness.
-- The sticky header and footer had text scrolling underneath or the text was not visible due to the said header and footer.
-- The links in the header and footer was overshadowed by the neighboring links padding and didn't work on smaller screens.
-- The hero image was too big on tablet screen size, covered the whole viewport window.
-- Lighthouse flagged the indiatimes.com link as bad SEO due to the initial text description around the link was none descriptive of the links purpose.
-- Due to large images and split screen design, the media query adjustments required a lot of trial and errors remodeling before the result was okay on all the devices testable by chrome DevTools. Both in standing and landscape mood.
-- The image text was not contrasting enough against the hero image, an overlay was added.
-- The text segment didn't scroll as wanted.
-
-For most of the bug fixes I went back to the [Code Institute](https://codeinstitute.net/) LMS and the learning material for the HTML ans CSS module and found the answers there. In a few cases I consulted external sources while searching for the answer using [Google](www.google.com). For more information about the external code used, see the [Credits](#credits) section below.
-
-<br>
-
-There are also a few bugs left to fix that won't respond as I wish at the moment. Even though I tried to fix it, there is always room for improvement. Ass I become a better software developer in the future, I look forward to coming back to this project to fix:
-- Areas of blank space on the home page and activities page while the screen is in standing position. My attempts to fix it so far resulted in that the equivalent area on the join page has either partly covered by the footer or "double scrolling" in under the hero image.
-- While the site is responsive, it is still static when the screen size changes are applied by freely adjusting the screen size in a browser window. I would like the changes in response to be more fluid in the future.
-- I'd also like to add a live calendar section and a page where the club members can order club merchandise. As well as an interactive gallery displaying past events and gatherings organized by the club.
-<br>
-
 
 [Back to top](#beerlicious)
 
@@ -319,9 +273,21 @@ All three codes was tested through the live server in chrome before commited to 
 <br>
 
 ### **Media**
-- The hero images for both landscape and standing view of the screen comes from the artist ELEVATE at [Pexels.com](https://www.pexels.com/sv-se/@elevate).
+- The hero images for both landscape and portrait orientation of the screen comes from the artist ELEVATE at [Pexels.com](https://www.pexels.com/sv-se/@elevate).
 - The beer mug icon on the same page are from [Font Awesome](https://fontawesome.com/).
 - The image at the top of this page, that shows how the website is presented on different media screens are a screenshot from [Am I responsive?](http://ami.responsivedesign.is/)
+
+<br>
+
+### **Acknowledgement**
+
+- Nicklas Elling at Dataföreningen Stockholm for introducing me to Code Institute.
+- My mentor Precious Ijege at Code Institute for valuable input and encouragement.
+- The Slack community for be such an open, warm and charing place. 
+- My friend and senior developer Alfred Skedebäck for the motivation and introduction to important basics as a future developer, even before my studies started. And for his input about best and general practice as well as hints about improvements for this project. 
+- Viet Hoang for letting me run the page by him and for getting user experience input before, during and at the final stage of the project.
+
+
 
 [Back to top](#beerlicious)
 
