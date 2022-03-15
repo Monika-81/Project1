@@ -89,6 +89,7 @@ header {
   overflow-x: auto;
 }
 
+/* Code source: https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll*/
 ::-webkit-scrollbar {
   display: none;
 }
@@ -224,10 +225,13 @@ h1 > a {
 }
 
 /* styles input elements in form*/
+
+/* Code source: https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons*/
 input[type="radio"] {
   accent-color: rgba(0, 0, 0, 1);
 }
 
+/* Code source: https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus,
