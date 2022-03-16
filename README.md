@@ -41,7 +41,6 @@ Let me introduce you further to [**BeerLicious**](https://monika-81.github.io/pr
 ---
 
 ## **Design**
-<br>
 
 ### **The layout**
 The design choice for the BeerLicious main page for desktop aims to get the user to think about an open book or magazine, like looking at a "club brochure" through a screen. With a decorative image to the left to set the mode as well as visually inform the user what the site is about. For portrait oriented devises the image is instead set at the top to welcome the user.
@@ -98,7 +97,6 @@ The BeerLicious site want the user to get a taste of the lightheartedness and hu
 ---
 
 ## **Features**
-<br>
 
 ### **Navigation bar**
 At the top of the website there is an internal navigation bar that will help the user choose between the "about page" (home page), "activities page" and the "sign up page" - also know as "join". The current page the user is visiting is marked for easier navigation on the site. On desktop and landscape oriented screens the navigation bar is located to the top right side of the page, and on portrait oriented devices the navigation bar is fixed at the top of the screen.
@@ -161,10 +159,8 @@ At the bottom of the screen, the user finds the external navigation links to soc
 ---
 
 ## **Technologies**
-<br>
 
 ### **Languages**
-<br>
 
 - **HTML5**
 <br> I used HTML to create the base structure of the project. I started with a basic bolierplate set up and created the first crude structure of the page out of the original design. 
@@ -173,7 +169,6 @@ At the bottom of the screen, the user finds the external navigation links to soc
 <br> The CSS was used to apply the custom styles to the HTML skeleton. In a seperate document the positioning and creation for the whole design come forth. 
 
 ### **Tools**
-<br>
 
 - [Balsamiq](https://balsamiq.com/)
     - I used Balsamiq to make the basic wireframes for this project.
@@ -219,7 +214,6 @@ At the bottom of the screen, the user finds the external navigation links to soc
 ---
 
 ## **Testing**
-<br>
 
 For more information about the testing performed during the development, go to the separate [testing](/TESTING.md) page.
 <br>
@@ -230,7 +224,6 @@ For more information about the testing performed during the development, go to t
 ---
 
 ## **Deployment**
-<br>
 
 The project was deployed to **GitHub** using **GitPod**:
 - Go to the project's repository page at GitHub.
@@ -251,7 +244,6 @@ A copy of this GitHub Repository can be made by forking the GitHub content. By u
 ---
 
 ## **Credits**
-<br>
 
 ### **Content**
 - Fun fact quote underneath the activities list on page two was taken from an article about International Beer Day 2021 in [Indiatimes.com](https://www.indiatimes.com/trending/social-relevance/international-beer-day-facts-about-beer-546635.html).
