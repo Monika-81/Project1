@@ -232,10 +232,20 @@ The project was deployed to **GitHub** using **GitPod**:
 - On top of the screen there will be a massage displayed with the active link.
 <br>
 
-A copy of this GitHub Repository can be made by forking the GitHub content. By using a copy of the repository, changes can be made to the copy without affecting the original code. To make a copy of the repository, follow these steps:
+A copy of this GitHub Repository can be made by either making a copy on your local machine or by forking the GitHub content. By using a copy of the repository, changes can be made to the copy without affecting the original code. To make a copy of the repository, follow these steps:
 
+**Forking**
 - Locate the repository at **GitHub**.
 - At the top right-hand side is a button called *fork*, click on the button to create a copy of the original repository in your GitHub Account.
+<br>
+
+**Copy**
+- Locate the repository at **GitHub**.
+- At the top of the files menu, click the green *code* button.
+- The first option in the scrolldown menu is clone, where you get three choices of how to clone the repository.
+- To clone a copy to your GitHub Desktop, click **Open with GitHub Desktop**.
+- By clicking "choose" you can pick where you want to store the clone on you local machine.
+- And finally, click the button *clone*.
 <br>
 <br>
 
