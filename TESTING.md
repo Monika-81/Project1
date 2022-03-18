@@ -116,17 +116,17 @@ To validate the accessibility further I also tested the site at Wave - Web Acces
 ### **Bugs and fixes**
 There where a number of bugs and mishaps committed through the development as I tried to learn the best way to code the website. Due to the large hero images and split screen design, the media query adjustments required a lot of trial and errors remodeling before the result was okay on all the devices. 
 
-**The major bugs (that are now fixed) where**: <br>
+**The major bugs where**: <br>
 1. The hero image didn't fit the intended content area on desktop, the background color was showing at the top and bottom of the image.
     - Fixed by revisiting the LMS material.
-2. Image text didn't stay where it was intended while testing the site's responsiveness, especiallt when I turned the smaller screens for landscape position.
+2. Image text didn't stay where it was intended while testing the site's responsiveness, especially when I turned the smaller screens for landscape position.
     - Fixed with the help of the media queries.
 3. The sticky header and footer had text scrolling underneath or the text was not visible due to the said header and footer.
     - Fixed by revisiting the LMS material and by trying out own ideas.
 4. The links in the header and footer was overshadowed by the neighboring links padding and didn't work on smaller screens.
     - Revisited the box-model lessons for better understanding. Changed padding to margin to keep the links at a distant from each other.
 5. The hero image was too big on tablet screen size, covered the whole viewport window.
-    - Rezised the image and adjusted additional style in the media queries.
+    - Resized the image and adjusted additional style in the media queries.
 6. Lighthouse flagged the indiatimes.com link as bad SEO due to the initial text description around the link was none descriptive of the links purpose.
     - Rewrote the description containing the link.
 7. Lighthouse also flagged the hero image for bad loading time which lowered the performance.
@@ -143,8 +143,8 @@ For most of the bug fixes I went back to the [Code Institute](https://codeinstit
 <br>
 
 **Bugs not fixed**:
-- Areas of blank space on the home page and activities page while the screen is in standing position. My attempts to fix it so far resulted in that the equivalent area on the join page has either partly covered by the footer or "double scrolling" in under the hero image.
-- The code I found on Stack Overflow to help me hide the scrollbar doesn't work in Internet Explorer and Firefox. There are other code examples on the same site but for this page I didn't want to include JavaScript.
+- Areas of blank space on the home page and activities page when the screen is portrait oriented. My attempts to fix it so far resulted in that the equivalent area on the *join page* has either partly covered by the footer or "double scrolling" in under the hero image.
+- The code I found on Stack Overflow to help me hide the scrollbar doesn't work in Internet Explorer and Firefox. There are other code examples on the same site but for this site I didn't want to include JavaScript.
 <br>
 
 [Back to top](#testing)

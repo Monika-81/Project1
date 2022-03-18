@@ -24,14 +24,17 @@ Let me introduce you further to [**BeerLicious**](https://monika-81.github.io/pr
     - [Join page](#join-page)
     - [Confirmation page](#confirmation-page)
     - [External links](#external-links)
+    - [Future features](#future-features)
 
 3. [**Technologies**](#technologies)
 
 4. [**Testing**](#testing)
     
 5. [**Deployment**](#deployment)
+    - Forking
+    - Deployment
 
-6. [**Credits**](#credits)
+7. [**Credits**](#credits)
     - [Content](#content)
     - [Media](#media)
     - [Acknowledgement](#acknowledgement)
@@ -52,7 +55,7 @@ The design choice for the BeerLicious main page for desktop aims to get the user
 <br>
 <br>
 
-### **Hero Image**
+### **Hero image**
 With the BeerLicious website I wanted the story of the site to start on the left-hand side with an image that visually informs the user of what sort of content to expect. The overall design of the picture needed to be a darker setting to contrast the lighter text block to the right of the screen. The idea was to combine the color nuances of the hero image with the color theme, so the larger picture contains a beer class with a color that was similar to the accent color idea of the project. Two different pictures was chosen for different screen alignment, one for desktop and landscape mode and one for smaller portrait mode devises. A smaller picture on a smaller screen also makes the site more responsive.
 
 ![Hero image](assets/images/readme/hero-image.png) ![Alternativ image](assets/images/pexels-elevate-1267358.jpg) 
@@ -106,7 +109,7 @@ At the top of the website there is an internal navigation bar that will help the
 <br>
 <br>
 
-### **Hero Image** 
+### **Hero image** 
 As part of the main design there is a "hero image" to the left of the page at desktop and screens in lanscape position. The same image will transform as a header image at viewports the scale of 1200px down to 600px therafter a smaller image will serve as the hero image. The image main purpose is to set the mode and in itself get the user to associate the site with beer. Visually it will work as a complement to the text section but if the image won't load there is a background color in the accent color that connects to the color scheme of the entire web page. The logo "BeerLicious" that rest on top off the hero image acts both as an title to the entire page but also works as a internal link to the home page of the site. Giving the user the option to interact with the image text to take them back to the home page.   
 <br>
 
@@ -146,13 +149,16 @@ After the user have succesfully submitted the form the user is greeted with a co
 <br>
 <br>
 
-### **External Links**
+### **External links**
 At the bottom of the screen, the user finds the external navigation links to social media as well as to open a email client to send an email to the BeerLicios club directly. The position of the navigation bar at the bottom mimics the navigation bar at the top of the page. On desktop and landscape oriented screens the navigation bar is located to the bottom right side of the page, and on portrait oriented devices the navigation bar is fixed at the bottom of the screen.
 <br>
 
 ![External navigation](assets/images/readme/external-links.png)
 <br>
 <br>
+
+### **Future features**
+The current website has all the potential of growth in aspect of what the members will request from the membership and what the club hopes to achieve. Some features I'd like to ad in the future is a live calendar with updates about upcoming events, with the possibility to read more about each event and to sign up to participate if a member would like to join the event. Another potential feature is a page containing a small shop for club merchandise, a forum where the members can communicate directly with each other and a gallery containing pictures from past event. 
 
 [Back to top](#beerlicious)
 
@@ -163,10 +169,10 @@ At the bottom of the screen, the user finds the external navigation links to soc
 ### **Languages**
 
 - **HTML5**
-<br> I used HTML to create the base structure of the project. I started with a basic bolierplate set up and created the first crude structure of the page out of the original design. 
+<br> I used HTML to create the base structure of the project. I started with a basic boilerplate set up and created the first crude structure of the page out of the original design. 
 
 - **CSS3**
-<br> The CSS was used to apply the custom styles to the HTML skeleton. In a seperate document the positioning and creation for the whole design come forth. 
+<br> The CSS was used to apply the custom styles to the HTML skeleton. In a separate document the creation of the design come forth. 
 
 ### **Tools**
 
@@ -180,7 +186,7 @@ At the bottom of the screen, the user finds the external navigation links to soc
     - I used Colormind to create a color palette for my color scheme.
 
 - [DevTools](https://developer.chrome.com/docs/devtools/)
-    -  I used DevTools to test both changes in my code as well as the responsibility of the site.  
+    -  I used DevTools to test both changes in my code and the responsivity of the site.  
 
 - [Font Awesome](https://fontawesome.com)
     - I used Font Awesome for find the icon used on the site.
@@ -198,10 +204,10 @@ At the bottom of the screen, the user finds the external navigation links to soc
     - I used Lamda Test to test for browser compatibility.
 
 - [Responsive Design Checker](https://responsivedesignchecker.com)
-    - I used Responsive Design Checker to test the responsibility of the site.
+    - I used Responsive Design Checker to test the responsivity of the site.
 
 - [WAVE](https://wave.webaim.org/)
-    - I used Responsive Design Checker to test the responsibility of the site.
+    - I used Responsive Design Checker to test the responsivity of the site.
 
 - [W3Schools](https://www.w3schools.com/) 
     - I used W3C to test and validate my code throughout the project. 
@@ -241,8 +247,8 @@ A copy of this GitHub Repository can be made by either making a copy on your loc
 
 **Copy**
 - Locate the repository at **GitHub**.
-- At the top of the files menu, click the green *code* button.
-- The first option in the scrolldown menu is clone, where you get three choices of how to clone the repository.
+- At the top of the file's menu, click the green *code* button.
+- The first option in the drop-down menu is clone, where you get three choices of how to clone the repository.
 - To clone a copy to your GitHub Desktop, click **Open with GitHub Desktop**.
 - By clicking "choose" you can pick where you want to store the clone on you local machine.
 - And finally, click the button *clone*.
@@ -290,11 +296,11 @@ All three codes was tested through the live server in chrome before commited to 
 
 ### **Acknowledgement**
 
-- Nicklas Elling at Dataföreningen Stockholm for introducing me to Code Institute.
-- My mentor Precious Ijege at Code Institute for valuable input and encouragement.
-- The Slack community for be such an open, warm and charing place. 
-- My friend and senior developer Alfred Skedebäck for the motivation and introduction to important basics as a future developer, even before my studies started. And for his input about best and general practice as well as hints about improvements for this project. 
-- Viet Hoang for letting me run the page by him and for getting user experience input before, during and at the final stage of the project.
+- **Nicklas Elling** at Dataföreningen Stockholm for introducing me to Code Institute.
+- My mentor **Precious Ijege** at Code Institute for valuable input and encouragement.
+- The Slack community for be such an open, warm and sharing place. 
+- My friend and senior developer **Alfred Skedebäck** for the motivation and introduction to important basics as a future developer, even before my studies started. And for his input about best and general practice as well as hints about improvements for this project. 
+- **Viet Hoang** for letting me run the page by him and for getting user experience input before, during and at the final stage of the project.
 
 
 
