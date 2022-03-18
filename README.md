@@ -1,6 +1,6 @@
 # **BeerLicious**
 
-**BeerLicious** is the website for a fictive beer club located in the city of Helsingborg, Sweden. The club aim to encourage other beer interested people in the area to meet up and share social activities, learn from each other and just enjoy a relaxed gathering with like-minded beer lovers. This site targets various kinds of people whom are interested in knowing more about the different kinds of beer, the crafting procedure and know how of beer together, not the alcohol aspect of the brew. 
+**BeerLicious** is the website for a fictive beer club located in the city of Helsingborg, Sweden. The club aim to encourage other beer interested people in the area to meet up and share social activities, learn from each other and just enjoy a relaxed gathering with like-minded beer-lovers. This site targets various kinds of people whom are interested in knowing more about the different kinds of beer, the crafting procedure and know how of beer together, not the alcohol aspect of the brew. 
 
 Let me introduce you further to [**BeerLicious**](https://monika-81.github.io/project1/).
 <br>
@@ -63,9 +63,9 @@ With the BeerLicious website I wanted the story of the site to start on the left
 <br>
 
 ### **Color scheme**
-The goal of the design is to keep a clean and consistent user experience throughout the pages. With a light background/dark text set up and one accent color that associates the user with beer. The color was picked from the hero image using Chrome DevTools color dropper tool, then adjusted slightly so the text would still be readable if the image won't load. A color palette was created with the help of [Colormind](http://www.colormind.io) to work as a design foundation during the project.
+The goal of the design is to keep a clean and consistent user experience throughout the pages. With a light background/dark text set up and one accent color that associates the user with beer. The color was picked from the hero image using Chrome DevTools color dropper tool, then slightly adjusted so the text would still be readable against the background if the image won't load. A color palette was created with the help of [Colormind](http://www.colormind.io) to work as a design foundation during the project.
 
-The color scheme below shows the color in hex-code but rgba was used in the css for consistency purpose.
+The color palette below shows the color in hex-code but rgba was used in the css for consistency purpose.
 <br>
 
 ![Color scheme](assets/images/readme/color-scheme.png)
@@ -88,7 +88,7 @@ The accent color can be seen while hovering over one of the links on the page, t
 ### **Fonts**
 The BeerLicious site want the user to get a taste of the lightheartedness and humor of the club. In line with that the fonts for the project was chosen to be playful. 
 - The first font "Londrina Shadow" is used for the main titles. Both for the club logo and as a title for each page. 
-- The second font "Fredoka" is the font used for the rest of the text content. But for the text underneath the BeerLicious club name as well as for all the article and list text.
+- The second font "Fredoka" is the font used for the rest of the text content. And for the text underneath the BeerLicious club name as well as for all the article and list text.
 
 ![Londrina Shadow](assets/images/readme/Londrina-shadow.png)
 <br>
@@ -158,7 +158,7 @@ At the bottom of the screen, the user finds the external navigation links to soc
 <br>
 
 ### **Future features**
-The current website has all the potential of growth in aspect of what the members will request from the membership and what the club hopes to achieve. Some features I'd like to ad in the future is a live calendar with updates about upcoming events, with the possibility to read more about each event and to sign up to participate if a member would like to join the event. Another potential feature is a page containing a small shop for club merchandise, a forum where the members can communicate directly with each other and a gallery containing pictures from past event. 
+The current website has all the potential of growth based on what the members will request from the club membership and what the club hopes to achieve. Some features I'd like to ad in the future is a live calendar with updates about upcoming events. With the possibility to both read more about each event and to sign up to participate, if the member would like to join the event. Other potential features is a page containing a small shop for club merchandise, a forum where the members can communicate directly with each other and a gallery containing pictures from past event. 
 
 [Back to top](#beerlicious)
 
@@ -207,7 +207,7 @@ The current website has all the potential of growth in aspect of what the member
     - I used Responsive Design Checker to test the responsivity of the site.
 
 - [WAVE](https://wave.webaim.org/)
-    - I used Responsive Design Checker to test the responsivity of the site.
+    - I used WAVE to test the accessibility of the site.
 
 - [W3Schools](https://www.w3schools.com/) 
     - I used W3C to test and validate my code throughout the project. 
@@ -231,27 +231,31 @@ For more information about the testing performed during the development, go to t
 
 ## **Deployment**
 
-The project was deployed to **GitHub** using **GitPod**:
+The project was deployed to **GitHub** from **GitPod**:
 - Go to the project's repository page at GitHub.
 - Go to *settings* in the upper menu, and then choose *pages* in the left-hand menu.
-- Under the Source section, select the *Main branch* from the drop-down menu and click Save.
-- On top of the screen there will be a massage displayed with the active link.
+- Under the Source section, select the *Main branch* from the drop-down menu and click *save*.
+- On top of the screen there will be a massage displayed with the live link.
 <br>
 
-A copy of this GitHub Repository can be made by either making a copy on your local machine or by forking the GitHub content. By using a copy of the repository, changes can be made to the copy without affecting the original code. To make a copy of the repository, follow these steps:
 
-**Forking**
-- Locate the repository at **GitHub**.
-- At the top right-hand side is a button called *fork*, click on the button to create a copy of the original repository in your GitHub Account.
+The live link can be found here: https://monika-81.github.io/project1/
 <br>
+
+A copy of this GitHub Repository can be made by either making a copy on your local machine or by forking the GitHub content. By using a copy of the repository changes can be made to the copy without affecting the original code. To make a copy of the repository, follow these steps:
 
 **Copy**
 - Locate the repository at **GitHub**.
-- At the top of the file's menu, click the green *code* button.
+- At the top of the file's menu, click the green *code* button to the right.
 - The first option in the drop-down menu is clone, where you get three choices of how to clone the repository.
 - To clone a copy to your GitHub Desktop, click **Open with GitHub Desktop**.
 - By clicking "choose" you can pick where you want to store the clone on you local machine.
 - And finally, click the button *clone*.
+<br>
+
+**Forking**
+- Locate the repository at **GitHub**.
+- At the top right-hand side is a button called *fork*, click on the button to create a copy of the original repository in your GitHub Account.
 <br>
 <br>
 

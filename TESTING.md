@@ -142,9 +142,8 @@ For most of the bug fixes I went back to the [Code Institute](https://codeinstit
 
 <br>
 
-**Bugs not fixed**:
-- Areas of blank space on the home page and activities page when the screen is portrait oriented. My attempts to fix it so far resulted in that the equivalent area on the *join page* has either partly covered by the footer or "double scrolling" in under the hero image.
-- The code I found on Stack Overflow to help me hide the scrollbar doesn't work in Internet Explorer and Firefox. There are other code examples on the same site but for this site I didn't want to include JavaScript.
+**Bug not fixed**:
+- The code I found on Stack Overflow to hide the scrollbar doesn't work in Internet Explorer and Firefox. There are other code examples on the same site but for this site I didn't want to include JavaScripts.
 <br>
 
 [Back to top](#testing)
